@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
@@ -7,7 +6,7 @@ export default function Home() {
     <div className={utilStyles.parent}>
       <div id="main" className={utilStyles.screen}>
         <Head>
-          <title>{siteTitle}</title>
+          <title>RI CSS</title>
         </Head>
         <section className={utilStyles.headingMd}>
 
@@ -41,9 +40,9 @@ export default function Home() {
       </div>
 
       <div id="about-us" className={utilStyles.screen, utilStyles.screenalt}>
-        <Head>
+        {/* <Head>
           <title>{siteTitle}</title>
-        </Head>
+        </Head> */}
         <section className={utilStyles.headingMd}>
 
           <h1 className={utilStyles.title, utilStyles.titlealt}>About Us</h1>
