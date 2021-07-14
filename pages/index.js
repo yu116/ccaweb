@@ -12,26 +12,26 @@ export default function Home() {
 
         {/* Top row of buttons */}
         <div className={utilStyles.subscreen}>
-          <a href="https://google.com">
+          <a className={utilStyles.btn} href="https://google.com">
             About Us
           </a>
-          <a href="https://google.com">
+          <a className={utilStyles.btn} href="https://google.com">
             2021-2022 Activities/Courses
           </a>
         </div>
 
         {/* Title */}
-        <h1>Computer Science Society</h1>
+        <h1 className={utilStyles.title}>Computer Science Society</h1>
         
         {/* Bottom row of buttons */}
         <div className={utilStyles.subscreen}>
-          <a href="https://google.com">
+          <a className={utilStyles.btn} href="https://google.com">
             Achievements
           </a>
-          <a href="https://google.com">
+          <a className={utilStyles.btn} href="https://google.com">
             Competitions
           </a>
-          <a href="https://google.com">
+          <a className={utilStyles.btn} href="https://google.com">
             Contact Us
           </a>
         </div>

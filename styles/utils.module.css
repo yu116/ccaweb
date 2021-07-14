@@ -60,11 +60,37 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .subscreen {
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 20px;
+  column-gap: 100px;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.btn {
+  width: fit-content;
+  height: fit-content;
+  font-size: 1.75rem;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border: black;
+  border-radius: 5px;
+  transition: all .4s;
+  padding: 10px;
+}
+
+.btn:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px white,
+  0 15px 0 -4px #06a783,
+  0 16px 10px -3px #06a783;
+  text-decoration: none;
 }
