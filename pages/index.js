@@ -40,9 +40,6 @@ export default function Home() {
       </div>
 
       <div id="about-us" className={utilStyles.screen, utilStyles.screenalt}>
-        {/* <Head>
-          <title>{siteTitle}</title>
-        </Head> */}
         <section className={utilStyles.headingMd}>
 
           <h1 className={utilStyles.title, utilStyles.titlealt}>About Us</h1>
