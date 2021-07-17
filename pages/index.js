@@ -1,48 +1,52 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import Date from '../components/date'
 
-export default function Home({ allPostsData }) {
+export default function Home() {
   return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p>description</p>
-        <p>
-          (test{' '}
-          <a href="https://adfs.ri.edu.sg/adfs/ls/?SAMLRequest=fZJfT8IwFMXf%2FRRL37v%2FgDTbEoQYSVAXmD74Yrq1gyZbO3tblG%2FvGBoxRh57e3733HPbBGjbdGRmzU6u%2BZvlYJyPtpFAhosUWS2JoiCASNpyIKYim9n9ioSuTzqtjKpUg86QywQF4NoIJZGzXKTodTQOKfOvI1yx6QTH12WNSz8e4%2FEoKssongYl48h55hp6JkV9ix4EsHwpwVBp%2BpIfBtif4CAsghGJYhIGL8hZ9DmEpGagdsZ0QDyPshpcLVzOrAvb4eg14CFn9j3VXEmwLdcbrvei4k%2Fr1Q8t9oczuFFbIb1jYOTkX2u4EZIJub28gfIkAnJXFDnOHzcFypJjHzLk0tnR74%2FdURAm3rkuOb3cQ%2B%2BwXOSqEdXBuVW6peb%2FAQI3GCqC4XqQEiuh45WoBWf9HppGvc81p4anyGjLkZedTH%2F%2FkOzqEw%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&Signature=Gvt2gpiqak1fe%2FXPy5l9w1Lf%2BQEWzH%2FBOxI02er2%2B4zV3p69QFlcGdgw%2BzSVBJqqEmg46RRxYRFYm%2FCeM5GeUu5FEELxPCD2PcAkGrtEA1m04O2VkQm21Td7e2y%2BszuHCn25syPGv%2FUyK9lG7fgORNbP23D8xFWzMdWPcsnzL1vJmP%2FOGTssckVfJlT9EYkmSPVtHewLmE24U9rY9sbX84ec4P1Bkzb3erG0osnaslVk1rERKus5Y3gjEM4CTf%2FYFLkH7iviBNwCi%2BBnEY8f8VPLFuHOs%2FN9nTYZHK9gcSCbEKLTR5iYgBOvh%2Fe8MXc5EIs6lqhQF2Y5r1Fn5mb1vA%3D%3D">link</a>.)
-        </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </Layout>
-  )
-}
+    <div>
+      <div className={utilStyles.screen}>
+        <Head>
+          <title>{siteTitle}</title>
+          <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet"/>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        </Head>
+      </div>
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
+      <div className={utilStyles.about}>
+        <div className={utilStyles.aboutHeading}>
+          <i className='material-icons'>code</i>
+          <h1>About Us</h1>
+          <i className='material-icons'>code</i>
+        </div>
+
+        <blockquote>
+          "The ultimate promise of technology is to make us master of a world that we command by the push of a button."
+        </blockquote>
+        
+        <p>
+          We are Raffles Institution's Computer Science Society (CSS), a CCA filled with passionate individuals who believe in the power of technology and computing in transforming our way of life for the better. 
+          
+          <br/><br/>
+
+          At CSS, our members are exposed to all realms of Computer Science through enriching courses from Data Science to Web Development. Lessons start from the very basics and no prior programming experience is required. 
+          We welcome students of all skill levels, from absolute beginners to programming experts. 
+          
+          <br/><br/>
+
+          Joining CSS also offers members opportunities to participate in many exciting competitions such as the National Olympiad of Informatics (NOI) and the International Olympiad in Informatics (IOI). 
+          There are also hackathons, where participants build a prototype of an app or idea in 24 hours as a team. 
+          These competitions test members' ability to think outside of the box and apply programming skills in creative scenarios, allowing them to gain deeper insights into many algorithmic and technical aspects of programming. 
+          
+          <br/><br/>
+          
+          Sessions are typically once a week, 9am to 11am on Wednesdays. 
+          
+          <br/><br/>
+
+          Think you are a great fit for our CCA? Read on and be inspired!
+        </p>
+      </div>
+    </div>
+  )
 }
