@@ -1,5 +1,5 @@
 # About
-This is the code for Raffles Institution's Computer Science Society
+This is the code for Raffles Institution's Computer Science Society's website
 
 # Technologies
 - Next.js
