@@ -118,6 +118,8 @@
     font-size: 3rem;
   }
 
+ 
+
   .btn {
     font-size: 1rem;
   }
@@ -125,4 +127,29 @@
   .subscreen {
     column-gap: 10px;
   }
+}
+.activitiestitle{
+  font-size: 50px;
+}
+
+.main{
+  width: fit-content;
+  height: fit-content;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #04745b;
+  color: black;
+  border: black;
+  transition: all .4s;
+  padding: 5px;
+  font-size: 30px;
+  right: 0px;
+}
+
+.main:hover {
+  transform: translateY(-10px);
+  box-shadow:
+  0 8px 0 -4px #1bffce,
+  0 16px 10px -3px #06a783;
+  text-decoration: none;
 }
