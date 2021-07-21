@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import utilStyles from '../styles/utils.module.css'
-import Image from 'next/image'
-import { utils } from 'elliptic'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,29 +13,46 @@ export default function Home() {
 
           {/* Top row of buttons */}
           <div className={utilStyles.subscreen}>
-            <a className={utilStyles.btn} href="#about-us">
-              About Us
-            </a>
-            <a className={utilStyles.btn} href="#activities-courses">
-              2021-2022 Activities/Courses
-            </a>
-          </div>
+            <Link href="/about">
+              <a className={utilStyles.btn}>
+                About Us
+              </a>
+            </Link>
 
+            <Link href="/activities-courses">
+              <a className={utilStyles.btn}>
+                2021-2022 Activities/Courses
+              </a>
+            </Link>
+          </div>
+          
           {/* Title */}
           <h1 className={utilStyles.title}>Computer Science Society</h1>
-          
+
           {/* Bottom row of buttons */}
           <div className={utilStyles.subscreen}>
-            <a className={utilStyles.btn} href="#achievements">
-              Achievements
-            </a>
-            <a className={utilStyles.btn} href="#competitions">
-              Competitions
-            </a>
-            <a className={utilStyles.btn} href="#contact-us">
-              Contact Us
-            </a>
+            <Link href="/achievements">
+              <a className={utilStyles.btn}>
+                Achievements
+              </a>
+            </Link>
+
+            <Link href="/competitions">
+              <a className={utilStyles.btn}>
+                Competitions
+              </a>
+            </Link>
+
+            <Link href="/contact-us">
+              <a className={utilStyles.btn}>
+                Contact Us
+              </a>
+            </Link>
           </div>
+
+
+
+
 
         </section>
       </div>
