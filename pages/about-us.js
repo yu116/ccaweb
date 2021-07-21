@@ -27,11 +27,11 @@ export default function AboutUs() {
                 <br></br>
 
                 <div className={utilStyles.subscreen}>
-                <Link href="/">
-                <a className={utilStyles.btn}>
-                    Back to Main Screen
-                </a>
-                </Link>
+                    <Link href="/">
+                    <a className={utilStyles.btn}>
+                        Back to Main Screen
+                    </a>
+                    </Link>
                 </div>
 
             </section>
