@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 export default function Home() {
   return (
     <div className={utilStyles.parent}>
-      <div id="main" className={utilStyles.screen}>
+      <div className={utilStyles.screen}>
         <Head>
           <title>RI CSS</title>
         </Head>
