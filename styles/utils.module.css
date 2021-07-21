@@ -114,7 +114,11 @@
 
 /* Responsive Design for small screens (e.g. mobile) */
 @media screen and (max-width: 990px) {
-  .title {
+  .container {
+    font-size: 1rem;
+  }
+
+  .title, .titlealt {
     font-size: 3rem;
   }
 

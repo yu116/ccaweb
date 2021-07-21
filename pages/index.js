@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import utilStyles from '../styles/utils.module.css'
+import Image from 'next/image'
+import { utils } from 'elliptic'
 
 export default function Home() {
   return (
@@ -41,12 +43,22 @@ export default function Home() {
 
       <div id="about-us" className={utilStyles.screen, utilStyles.screenalt}>
         <section className={utilStyles.headingMd}>
-
           <h1 className={utilStyles.title, utilStyles.titlealt}>About Us</h1>
-
           <div className={utilStyles.container}>
             <p>
-              We are Raffles Institution's Computer Science Society, a CCA filled with passionate individuals ready to learn about Computer Science! From Web Development to Data Science, our members are exposed to all realms of Computer Science. Think you are a great fit for our CCA? Read on and be inspired!
+              💭 "The ultimate promise of technology is to make us masters of a world that we command by the push of a button"
+            </p>
+            <p>
+              👤 a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better
+            </p>
+            <p>
+              🗓 Sessions held every Wednesday from 9 to 11am
+            </p>
+            <p>
+              🎓 Offers courses from Data Science to Web Development
+            </p>
+            <p>
+              🏆 Organises and participates in competitions and hackathons
             </p>
           </div>
 
