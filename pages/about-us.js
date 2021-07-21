@@ -29,7 +29,7 @@ export default function AboutUs() {
                 <div className={utilStyles.subscreen}>
                     <Link href="/">
                     <a className={utilStyles.btn}>
-                        Back to Main Screen
+                        Back to Home
                     </a>
                     </Link>
                 </div>
