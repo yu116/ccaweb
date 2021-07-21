@@ -3,7 +3,6 @@ import utilStyles from '../styles/utils.module.css'
 
 export default function ActivitiesAndCourses() {
     return (
-
         <div id="activities-courses" className={utilStyles.screen}>
             <section className={utilStyles.headingMd}>
             <h1 className={utilStyles.title}>2021-2022 Activities/Courses</h1>
