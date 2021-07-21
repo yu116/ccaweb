@@ -3,7 +3,7 @@ import utilStyles from '../styles/utils.module.css'
 
 export default function Competitions() {
     return (
-        <div id="activities-courses" className={utilStyles.screen}>
+        <div className={utilStyles.screen}>
             <section className={utilStyles.headingMd}>
             <h1 className={utilStyles.title}>Competitions</h1>
                 <div className={utilStyles.container}>
