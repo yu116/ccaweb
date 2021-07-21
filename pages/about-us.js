@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 
-export default function About() {
+export default function AboutUs() {
     return (
-        <div className={utilStyles.screen, utilStyles.screenalt}>
+        <div className={utilStyles.screen}>
             <section className={utilStyles.headingMd}>
-                <h1 className={utilStyles.title, utilStyles.titlealt}>About Us</h1>
+                <h1 className={utilStyles.title}>About Us</h1>
                 <div className={utilStyles.container}>
                     <p>
                     💭 "The ultimate promise of technology is to make us masters of a world that we command by the push of a button"
@@ -26,11 +26,13 @@ export default function About() {
 
                 <br></br>
 
+                <div className={utilStyles.subscreen}>
                 <Link href="/">
                 <a className={utilStyles.btn}>
                     Back to Main Screen
                 </a>
                 </Link>
+                </div>
 
             </section>
         </div>

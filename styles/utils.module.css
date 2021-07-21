@@ -56,7 +56,7 @@
   scroll-behavior: smooth;
 }
 
-.screen, .screenalt {
+.screen {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -64,10 +64,6 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-}
-
-.screenalt {
-  background-color: #06a783;
 }
 
 .subscreen {
@@ -82,13 +78,9 @@
   padding-right: 20px;
 }
 
-.title, .titlealt {
+.title {
   font-size: 5rem;
   text-shadow: 3px 3px #06a783;
-}
-
-.titlealt {
-  text-shadow: 3px 3px white;
 }
 
 .btn {
@@ -118,7 +110,7 @@
     font-size: 1rem;
   }
 
-  .title, .titlealt {
+  .title {
     font-size: 3rem;
   }
 

@@ -13,7 +13,7 @@ export default function Home() {
 
           {/* Top row of buttons */}
           <div className={utilStyles.subscreen}>
-            <Link href="/about">
+            <Link href="/about-us">
               <a className={utilStyles.btn}>
                 About Us
               </a>
