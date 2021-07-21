@@ -1,5 +1,5 @@
 # About
-This is the code for Raffles Institution's Computer Science Society
+This is the code for Raffles Institution's Computer Science Society's website
 
 # Technologies
 - Next.js
@@ -9,4 +9,4 @@ This is the code for Raffles Institution's Computer Science Society
 # Contributors
 - Nyx Audrey Angelo Iskandar ([xyntechx](https://github.com/xyntechx))
 - Janani ([janani10734](https://github.com/janani10734))
-- Glenda Tan ([___](https://github.com/))
+- Glenda Tan ([glenda-tann](https://github.com/glenda-tann))
