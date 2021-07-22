@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Computer Science Society'
+const name = 'Computer Science Society '
 export const siteTitle = 'Raffles CSS'
 
 export default function Layout({ children, home }) {
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="About Raffles CSS"
         />
         <meta
           property="og:image"
