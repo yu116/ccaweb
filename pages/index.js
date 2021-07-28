@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className={utilStyles.parent}>
       <Head>
           <title>RI CSS</title>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
       </Head>
         
       <section className={utilStyles.container}>
@@ -83,6 +85,69 @@ export default function Home() {
                   </div>
               </div>
           </div>
+        </div>
+      </section>
+
+      <section>
+        <div className={utilStyles.footer}>
+          <div className={utilStyles.footercontent}>
+            <div className={utilStyles.image}>
+              <Image src='/logo.png' alt="CCA Logo" width={375} height={100}/>
+            </div>
+
+            <ul className={utilStyles.ul}>
+              <li className={utilStyles.li}>
+                <span class="material-icons">place</span>
+                <Link href="http://www.ri.edu.sg/visit-us">
+                  <a target="_blank" className={utilStyles.link}>Our Location</a>
+                </Link>
+              </li>
+
+              <li className={utilStyles.li}>
+                <span class="material-icons">mail</span>
+                <Link href="https://cssrjc@gmail.com">
+                  <a target="_blank" className={utilStyles.link}>cssrjc@gmail.com</a>
+                </Link>
+              </li>
+            </ul>
+
+            <ul className={utilStyles.ul}>
+              <li className={utilStyles.li}>
+                <span class="material-icons">alternate_email</span>
+                <Link href="https://www.instagram.com/rafflescss/">
+                  <a target="_blank" className={utilStyles.link}>rafflescss</a>
+                </Link>
+              </li>
+
+              <li className={utilStyles.li}>
+                <span class="material-icons">laptop</span>
+                <Link href="/activities-courses">
+                  <a target="_blank" className={utilStyles.link}>Activities/Courses</a>
+                </Link>
+              </li>
+            </ul>
+
+            <ul className={utilStyles.ul}>
+              <li className={utilStyles.li}>
+                <span class="material-icons">emoji_events</span>
+                <Link href="/competitions">
+                  <a target="_blank" className={utilStyles.link}>Competitions</a>
+                </Link>
+              </li>
+
+              <li className={utilStyles.li}>
+                <span class="material-icons">photo_camera</span>
+                <Link href="https://www.instagram.com/rafflescss/">
+                  <a target="_blank" className={utilStyles.link}>Photos</a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <hr></hr>
+
+          <p>Copyright &#169; 2021 Raffles Institution Computer Science Society</p>
+          
         </div>
       </section>
     </div>
