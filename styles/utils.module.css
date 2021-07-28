@@ -74,7 +74,6 @@
 .container {
   height: 100vh;
   width: 100vw;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,6 +84,7 @@
 .title {
   font-size: 5rem;
   text-shadow: 3px 3px #06a783;
+  z-index: 1;
 }
 
 .btn {
@@ -272,6 +272,11 @@
 .footer p {
   font-size: 15px;
   text-align: right;
+}
+
+.bgImage {
+  opacity: 75%;
+  z-index: 0;
 }
 
 /* Responsive Design for small screens (e.g. mobile) */

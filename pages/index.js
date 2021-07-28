@@ -12,34 +12,11 @@ export default function Home() {
       </Head>
         
       <section className={utilStyles.container}>
-        {/* Top row of buttons */}
-        <div className={utilStyles.subscreen}>
-          <Link href="/activities-courses">
-            <a className={utilStyles.btn}>2021-2022 Activities/Courses</a>
-          </Link>
-        </div>
-        
-        {/* Title */}
+        <Image className={utilStyles.bgImage} src="/group.png" alt="CSS Group Photo" layout="fill" objectFit="cover" objectPosition="center"/>
         <h1 className={utilStyles.title}>Computer Science Society</h1>
-
-        {/* Bottom row of buttons */}
-        <div className={utilStyles.subscreen}>
-          <Link href="/achievements">
-            <a className={utilStyles.btn}>Achievements</a>
-          </Link>
-
-          <Link href="/competitions">
-            <a className={utilStyles.btn}>Competitions</a>
-          </Link>
-
-          <Link href="/contact-us">
-            <a className={utilStyles.btn}>Contact Us</a>
-          </Link>
-        </div>
       </section>
 
-      <section className={utilStyles.headingMd}>
-        <div className={utilStyles.about}>
+      <section className={utilStyles.container}>
           <h1 className={utilStyles.title}>About Us</h1>
           <p>
           💭 "The ultimate promise of technology is to make us masters of a world that we command by the push of a button"
@@ -51,12 +28,11 @@ export default function Home() {
           🗓 Sessions held every Wednesday from 9 to 11am
           </p>
           <p>
-          🎓 Offers courses from Data Science to Web Development
+          🎓 Offers courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>
           </p>
           <p>
           🏆 Organises and participates in competitions and hackathons
           </p>
-        </div>
       </section>
 
       <section className={utilStyles.headingMd}>
