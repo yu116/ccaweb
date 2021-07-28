@@ -85,7 +85,7 @@ export default function Home() {
 
               <li className={utilStyles.li}>
                 <span class="material-icons">mail</span>
-                <Link href="https://cssrjc@gmail.com">
+                <Link href="mailto:cssrjc@gmail.com">
                   <a target="_blank" className={utilStyles.link}>cssrjc@gmail.com</a>
                 </Link>
               </li>
