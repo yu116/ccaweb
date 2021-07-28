@@ -1,9 +1,9 @@
 import Link from 'next/link'
 
-export default function Achievements() {
+function competitive() {
     return (
         <>
-        <h1>Achievements</h1>
+        <h1>Competitive Programming</h1>
         <h2>
             <Link href="/">
             <a>Back to home</a>
@@ -12,3 +12,5 @@ export default function Achievements() {
         </>
     )
 }
+
+export default competitive;

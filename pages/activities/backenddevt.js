@@ -1,9 +1,9 @@
 import Link from 'next/link'
 
-function ui() {
+function backend() {
     return (
         <>
-        <h1>UI/UX Design</h1>
+        <h1>Backend</h1>
         <h2>
             <Link href="/">
             <a>Back to home</a>
@@ -13,4 +13,4 @@ function ui() {
     )
 }
 
-export default ui;
+export default backend;

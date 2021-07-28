@@ -17,7 +17,7 @@ export default function AboutUs() {
                     🗓 Sessions held every Wednesday from 9 to 11am
                     </p>
                     <p>
-                    🎓 Offers courses from Data Science to Web Development
+                    🎓 Offers courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>
                     </p>
                     <p>
                     🏆 Organises and participates in competitions and hackathons
