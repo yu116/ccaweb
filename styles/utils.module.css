@@ -283,7 +283,6 @@
 
 
 .testimonials {
-  background-color: #06a783;
   font-size: 1.2rem;
   line-height: 1.5;
 
@@ -331,7 +330,7 @@
   width: 100%;
   height: 300px;
   border-radius: 25px;
-  background: white;
+  background:#06a783;
 
   transform-origin: center center;
   transition: transform 0.4s;

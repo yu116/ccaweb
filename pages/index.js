@@ -65,8 +65,6 @@ export default function Home() {
         </div>
         <section className={utilStyles.headingMd}>
         <div className={utilStyles.testimonials}>
-          <h1>Testimonials</h1>
-
           <div className={utilStyles.slider}>
               <Link href="#slide-1" scroll={false}><a>1</a></Link>
               <Link href="#slide-2" scroll={false}><a>2</a></Link>
