@@ -7,6 +7,7 @@ import utilStyles from '../styles/utils.module.css'
 export default function Home() {
   return (
     <div className={utilStyles.parent}>
+      <div className={utilStyles.screen}>
       <div className={utilStyles.subscreen}>
 
         <Head>
@@ -34,11 +35,10 @@ export default function Home() {
                 <Link href="/activities/webandmobileappdevt"> 📱 Web and Mobile App Development </Link>
               </div>
           </div>
-          <Link href="/testimonials">
-              <a className={utilStyles.btn}>Testimonials</a>
-            </Link>
-          
-      </div>
+            {/* <Link href="/testimonials"> */}
+              <a className={utilStyles.btn} href="#testimonials">Testimonials</a>
+            {/* </Link> */}
+          </div>
 
   
           
@@ -63,6 +63,9 @@ export default function Home() {
           </div>
         </section>
         </div>
+        </div>
+
+        <div className={utilStyles.screen} id="testimonials">
         <section className={utilStyles.headingMd}>
         <div className={utilStyles.testimonials}>
           <div className={utilStyles.slider}>
@@ -90,9 +93,6 @@ export default function Home() {
         </div>
       </section>
       </div>
-      
-
-      
-
+      </div>
   )
 }
