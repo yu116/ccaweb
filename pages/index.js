@@ -11,29 +11,33 @@ export default function Home() {
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
       </Head>
         
-      <section className={utilStyles.container}>
+      <div className={utilStyles.screen}>
         <Image className={utilStyles.bgImage} src="/group.png" alt="CSS Group Photo" layout="fill" objectFit="cover" objectPosition="center"/>
         <h1 className={utilStyles.title}>Computer Science Society</h1>
-      </section>
+      </div>
 
-      <section className={utilStyles.container}>
+      <div className={utilStyles.screen}>
+        <section className={utilStyles.headingMd}>
           <h1 className={utilStyles.title}>About Us</h1>
-          <p>
-          💭 "The ultimate promise of technology is to make us masters of a world that we command by the push of a button"
-          </p>
-          <p>
-          👤 a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better
-          </p>
-          <p>
-          🗓 Sessions held every Wednesday from 9 to 11am
-          </p>
-          <p>
-          🎓 Offers courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>
-          </p>
-          <p>
-          🏆 Organises and participates in competitions and hackathons
-          </p>
-      </section>
+            <div className={utilStyles.container}>
+              <p>
+              💭 "The ultimate promise of technology is to make us masters of a world that we command by the push of a button"
+              </p>
+              <p>
+              👤 a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better
+              </p>
+              <p>
+              🗓 Sessions held every Wednesday from 9 to 11am
+              </p>
+              <p>
+              🎓 Offers courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>
+              </p>
+              <p>
+              🏆 Organises and participates in competitions and hackathons
+              </p>
+            </div>
+        </section>
+      </div>
 
       <section className={utilStyles.headingMd}>
         <div className={utilStyles.testimonials}>
@@ -98,7 +102,7 @@ export default function Home() {
               <li className={utilStyles.li}>
                 <span class="material-icons">laptop</span>
                 <Link href="/activities-courses">
-                  <a target="_blank" className={utilStyles.link}>Activities/Courses</a>
+                  <a className={utilStyles.link}>Activities/Courses</a>
                 </Link>
               </li>
             </ul>
@@ -107,14 +111,14 @@ export default function Home() {
               <li className={utilStyles.li}>
                 <span class="material-icons">emoji_events</span>
                 <Link href="/competitions">
-                  <a target="_blank" className={utilStyles.link}>Competitions</a>
+                  <a className={utilStyles.link}>Competitions</a>
                 </Link>
               </li>
 
               <li className={utilStyles.li}>
                 <span class="material-icons">photo_camera</span>
                 <Link href="https://www.instagram.com/rafflescss/">
-                  <a target="_blank" className={utilStyles.link}>Photos</a>
+                  <a lassName={utilStyles.link}>Photos</a>
                 </Link>
               </li>
             </ul>
