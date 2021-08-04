@@ -6,38 +6,58 @@ import utilStyles from '../styles/utils.module.css'
 export default function Home() {
   return (
     <div className={utilStyles.parent}>
-      <Head>
+      <div className={utilStyles.screen}>
+        <Head>
           <title>RI CSS</title>
-          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-      </Head>
-        
-      <div className={utilStyles.screen}>
-        <Image className={utilStyles.bgImage} src="/group.png" alt="CSS Group Photo" layout="fill" objectFit="cover" objectPosition="center"/>
-        <h1 className={utilStyles.title}>Computer Science Society</h1>
-      </div>
-
-      <div className={utilStyles.screen}>
+        </Head>
         <section className={utilStyles.headingMd}>
-          <h1 className={utilStyles.title}>About Us</h1>
-            <div className={utilStyles.container}>
-              <p>
-              💭 "The ultimate promise of technology is to make us masters of a world that we command by the push of a button"
-              </p>
-              <p>
-              👤 a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better
-              </p>
-              <p>
-              🗓 Sessions held every Wednesday from 9 to 11am
-              </p>
-              <p>
-              🎓 Offers courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>
-              </p>
-              <p>
-              🏆 Organises and participates in competitions and hackathons
-              </p>
-            </div>
-        </section>
+      
+
+          {/* Top row of buttons */}
+          <div className={utilStyles.subscreen}>  
+          <Link href="/aboutus">
+              <a className={utilStyles.btn}>
+                About Us
+              </a>
+            </Link>
+
+            <div className = {utilStyles.dropdown}>
+            <button className = {utilStyles.btn}>2021-2022 Activities/Courses</button>
+              <div className = {utilStyles.dropdowncontent}>
+                <Link href="/activities/backenddevt"> 📦 Backend Development </Link>
+                <Link href="/activities/competitiveprogramming"> 🔥 Competitive Programming </Link>
+                <Link href="/activities/datasciandmachinelearning"> 🤖 Data Science and Machine Learning </Link>
+                <Link href="/activities/incubatorprogramme"> 💭 Incubator Programmes </Link>
+                <Link href="/activities/ui-uxdesign"> 🎨 UI/UX Design </Link>
+                <Link href="/activities/webandmobileappdevt"> 📱 Web and Mobile App Development </Link>
+              </div>
+          </div>
+            <Link href="/competitions">
+              <a className={utilStyles.btn}>
+                Competitions
+              </a>
+            </Link>
       </div>
+          
+          {/* Title */}
+          <h1 className={utilStyles.title}>Computer Science Society</h1>
+
+          {/* Bottom row of buttons */}
+          <div className={utilStyles.subscreen}>
+          <Image src="/ai.png" alt="CSS Group Photo" width = "500px" height = "300px"/>
+          <Image src="/webdevt.png" alt="CSS Group Photo" width = "400px" height = "300px"/>
+
+  
+         
+
+            
+          </div>
+        </section>
+        </div>
+
+      
+
+      
 
       <section className={utilStyles.headingMd}>
         <div className={utilStyles.testimonials}>
@@ -99,22 +119,8 @@ export default function Home() {
                 </Link>
               </li>
 
-              <li className={utilStyles.li}>
-                <span class="material-icons">laptop</span>
-                <Link href="/activities-courses">
-                  <a className={utilStyles.link}>Activities/Courses</a>
-                </Link>
-              </li>
-            </ul>
-
-            <ul className={utilStyles.ul}>
-              <li className={utilStyles.li}>
-                <span class="material-icons">emoji_events</span>
-                <Link href="/competitions">
-                  <a className={utilStyles.link}>Competitions</a>
-                </Link>
-              </li>
-
+            
+          
               <li className={utilStyles.li}>
                 <span class="material-icons">photo_camera</span>
                 <Link href="https://www.instagram.com/rafflescss/">
@@ -133,3 +139,5 @@ export default function Home() {
     </div>
   )
 }
+
+
