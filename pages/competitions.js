@@ -29,6 +29,7 @@ export default function Competitions() {
                     Back to Home
                 </a>
                 </Link>
+                
                 </div>
             </section>
         </div>

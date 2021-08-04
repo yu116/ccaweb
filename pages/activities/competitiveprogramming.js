@@ -4,7 +4,7 @@ function competitive() {
     return (
         <div className={utilStyles.screen}>
         <section className={utilStyles.headingMd}>
-            <h1 className={utilStyles.title}>Compeitive Programming</h1>
+            <h1 className={utilStyles.title}>Competitive Programming</h1>
             <div className={utilStyles.container}>
             <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img>
             </div>

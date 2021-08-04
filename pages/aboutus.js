@@ -30,6 +30,7 @@ function aboutus() {
                     Back to Home
                 </a>
                 </Link>
+                
                 </div>
             </section>
         </div>

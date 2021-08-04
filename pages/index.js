@@ -9,16 +9,14 @@ export default function Home() {
       <div className={utilStyles.screen}>
         <Head>
           <title>RI CSS</title>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
         </Head>
+        
         <section className={utilStyles.headingMd}>
-      
-
           {/* Top row of buttons */}
           <div className={utilStyles.subscreen}>  
-          <Link href="/aboutus">
-              <a className={utilStyles.btn}>
-                About Us
-              </a>
+            <Link href="/aboutus">
+              <a className={utilStyles.btn}>About Us</a>
             </Link>
 
             <div className = {utilStyles.dropdown}>
@@ -31,113 +29,85 @@ export default function Home() {
                 <Link href="/activities/ui-uxdesign"> 🎨 UI/UX Design </Link>
                 <Link href="/activities/webandmobileappdevt"> 📱 Web and Mobile App Development </Link>
               </div>
-          </div>
+            </div>
+
             <Link href="/competitions">
-              <a className={utilStyles.btn}>
-                Competitions
-              </a>
+              <a className={utilStyles.btn}>Competitions</a>
             </Link>
-      </div>
+          </div>
           
           {/* Title */}
           <h1 className={utilStyles.title}>Computer Science Society</h1>
 
           {/* Bottom row of buttons */}
           <div className={utilStyles.subscreen}>
-          <Image src="/ai.png" alt="CSS Group Photo" width = "500px" height = "300px"/>
-          <Image src="/webdevt.png" alt="CSS Group Photo" width = "400px" height = "300px"/>
-
-  
-         
-
-            
+            <Image src="/ai.png" alt="CSS Group Photo" width = "500px" height = "300px"/>
+            <Image src="/webdevt.png" alt="CSS Group Photo" width = "400px" height = "300px"/>
           </div>
         </section>
-        </div>
+      </div>
 
-      
-
-      
-
-      <section className={utilStyles.headingMd}>
-        <div className={utilStyles.testimonials}>
-          <h1>Testimonials</h1>
-
-          <div className={utilStyles.slider}>
-              <Link href="#slide-1" scroll={false}><a>1</a></Link>
-              <Link href="#slide-2" scroll={false}><a>2</a></Link>
-              <Link href="#slide-3" scroll={false}><a>3</a></Link>
-              
-              <div className={utilStyles.slides}>
-                  <div name="slide-1" id="slide-1" className={utilStyles.slide}>
-                      <blockquote>"I love CSS!"</blockquote>
-                      <p>~ Member 1</p>
-                  </div>
-                  
-                  <div name="slide-2" id="slide-2" className={utilStyles.slide}>
-                      <blockquote>"I love CSS too!"</blockquote>
-                      <p>~ Member 2</p>
-                  </div>
-                  
-                  <div id="slide-3" className={utilStyles.slide}>
-                      <blockquote>"I love CSS three!"</blockquote>
-                      <p>~ Member 3</p>
-                  </div>
-              </div>
-          </div>
+      <section className={utilStyles.testimonials}>
+        <h2>Testimonials</h2>
+        <div className={utilStyles.slider}>
+            <Link href="#slide-1" scroll={false}><a>1</a></Link>
+            <Link href="#slide-2" scroll={false}><a>2</a></Link>
+            <Link href="#slide-3" scroll={false}><a>3</a></Link>
+            
+            <div className={utilStyles.slides}>
+                <div name="slide-1" id="slide-1" className={utilStyles.slide}>
+                    <blockquote>"I love CSS!"</blockquote>
+                    <p>~ Member 1</p>
+                </div>
+                
+                <div name="slide-2" id="slide-2" className={utilStyles.slide}>
+                    <blockquote>"I love CSS too!"</blockquote>
+                    <p>~ Member 2</p>
+                </div>
+                
+                <div id="slide-3" className={utilStyles.slide}>
+                    <blockquote>"I love CSS three!"</blockquote>
+                    <p>~ Member 3</p>
+                </div>
+            </div>
         </div>
       </section>
 
-      <section>
-        <div className={utilStyles.footer}>
+      <section className={utilStyles.footer}>
           <div className={utilStyles.footercontent}>
-            <div className={utilStyles.image}>
-              <Image src='/logo.png' alt="CCA Logo" width={400} height={400}/>
-            </div>
-
-            <ul className={utilStyles.ul}>
-              <li className={utilStyles.li}>
+              <div className={utilStyles.li}>
                 <span class="material-icons">place</span>
                 <Link href="http://www.ri.edu.sg/visit-us">
                   <a target="_blank" className={utilStyles.link}>Our Location</a>
                 </Link>
-              </li>
+              </div>
 
-              <li className={utilStyles.li}>
+              <div className={utilStyles.li}>
                 <span class="material-icons">mail</span>
                 <Link href="mailto:cssrjc@gmail.com">
                   <a target="_blank" className={utilStyles.link}>cssrjc@gmail.com</a>
                 </Link>
-              </li>
-            </ul>
+              </div>
 
-            <ul className={utilStyles.ul}>
-              <li className={utilStyles.li}>
+              <div className={utilStyles.li}>
                 <span class="material-icons">alternate_email</span>
                 <Link href="https://www.instagram.com/rafflescss/">
                   <a target="_blank" className={utilStyles.link}>rafflescss</a>
                 </Link>
-              </li>
+              </div>
 
-            
-          
-              <li className={utilStyles.li}>
+              <div className={utilStyles.li}>
                 <span class="material-icons">photo_camera</span>
                 <Link href="https://www.instagram.com/rafflescss/">
-                  <a lassName={utilStyles.link}>Photos</a>
+                  <a className={utilStyles.link}>Photos</a>
                 </Link>
-              </li>
-            </ul>
+              </div>
           </div>
 
           <hr></hr>
 
           <p>Copyright &#169; 2021 Raffles Institution Computer Science Society</p>
-          
-        </div>
       </section>
     </div>
   )
 }
-
-

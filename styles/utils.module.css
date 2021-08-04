@@ -23,7 +23,6 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
-  margin-top: 20px;
 }
 
 .borderCircle {
@@ -75,8 +74,8 @@
 }
 
 .container {
-  /* height: 100vh;
-  width: 100vw; */
+ 
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,7 +83,6 @@
   text-align: center;
   margin-right: 100px;
   margin-left: 100px;
-  margin-top: -10px;
 }
 
 .title {
@@ -133,9 +131,6 @@
   background-color: #06a783;
   font-size: 1.2rem;
   line-height: 1.5;
-
-  height: 100vh;
-  width: 100vw;
   
   display: flex;
   align-items: center;
@@ -144,9 +139,10 @@
   text-align: center;
 }
 
-.testimonials h1 {
-  font-size: 5rem;
-  text-shadow: 3px 3px white;
+.testimonials h2 {
+  font-size: 50px;
+  text-shadow: 1.5px 1.5px white;
+  z-index: 1;
 }
 
 .slides {
@@ -237,17 +233,15 @@
 .footer {
   width: 80%;
   margin: 0 auto;
+  padding: 1%;
 }
 
 .footercontent {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-}
-
-.image {
-  padding: 3%;
+  padding: 1%;
 }
 
 .link {
@@ -261,17 +255,9 @@
   text-decoration: none;
 }
 
-.ul {
-  padding: 3%;
-  list-style-type: None;
-  line-height: 2.0;
-}
-
 .li {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  margin-bottom: 7%;
   font-size: 18px;
 }
 
@@ -289,8 +275,6 @@
 @media screen and (max-width: 990px) {
   .container {
     font-size: 1rem;
-    margin-left: 7%;
-    margin-right: 2%;
   }
 
   .title {
@@ -337,4 +321,3 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
