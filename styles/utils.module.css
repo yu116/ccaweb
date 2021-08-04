@@ -23,6 +23,7 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+  margin-top: 20px;
 }
 
 .borderCircle {
@@ -81,6 +82,9 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: -10px;
 }
 
 .title {
@@ -285,6 +289,8 @@
 @media screen and (max-width: 990px) {
   .container {
     font-size: 1rem;
+    margin-left: 7%;
+    margin-right: 2%;
   }
 
   .title {
