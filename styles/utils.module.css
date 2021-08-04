@@ -57,6 +57,8 @@
 }
 
 .screen {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,9 +74,8 @@
 }
 
 .container {
-  height: 100vh;
-  width: 100vw;
-
+  /* height: 100vh;
+  width: 100vw; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,6 +86,7 @@
 .title {
   font-size: 5rem;
   text-shadow: 3px 3px #06a783;
+  z-index: 1;
 }
 
 .btn {
@@ -127,9 +129,6 @@
   background-color: #06a783;
   font-size: 1.2rem;
   line-height: 1.5;
-
-  height: 100vh;
-  width: 100vw;
   
   display: flex;
   align-items: center;
@@ -138,9 +137,10 @@
   text-align: center;
 }
 
-.testimonials h1 {
-  font-size: 5rem;
-  text-shadow: 3px 3px white;
+.testimonials h2 {
+  font-size: 50px;
+  text-shadow: 1.5px 1.5px white;
+  z-index: 1;
 }
 
 .slides {
@@ -231,17 +231,15 @@
 .footer {
   width: 80%;
   margin: 0 auto;
+  padding: 1%;
 }
 
 .footercontent {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-}
-
-.image {
-  padding: 3%;
+  padding: 1%;
 }
 
 .link {
@@ -255,23 +253,20 @@
   text-decoration: none;
 }
 
-.ul {
-  padding: 3%;
-  list-style-type: None;
-  line-height: 2.0;
-}
-
 .li {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  margin-bottom: 7%;
   font-size: 18px;
 }
 
 .footer p {
   font-size: 15px;
   text-align: right;
+}
+
+.bgImage {
+  opacity: 75%;
+  z-index: 0;
 }
 
 /* Responsive Design for small screens (e.g. mobile) */
@@ -292,3 +287,35 @@
     column-gap: 10px;
   }
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdowncontent a {
+  color: black;
+  padding: 10px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdowncontent a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdowncontent {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
