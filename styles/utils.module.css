@@ -288,9 +288,10 @@
 }
 
 .footer {
-  width: 80%;
   margin: 0 auto;
   padding: 1%;
+  background-color: black;
+  width: 100vw;
 }
 
 .footercontent {
@@ -302,9 +303,8 @@
 }
 
 .link {
-  color:black;
+  color: white;
   text-decoration: none;
-  
 }
 
 .link:hover {
@@ -319,8 +319,13 @@
 }
 
 .footer p {
+  color: white;
   font-size: 15px;
   text-align: right;
+}
+
+.footer span {
+  color: white;
 }
 
 .bgImage {
