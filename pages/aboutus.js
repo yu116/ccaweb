@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import utilStyles from '/styles/utils.module.css'
+import utilStyles from '../styles/utils.module.css'
 import Image from 'next/image'
 
-function datasci() {
+function aboutus() {
     return (
         <div className={utilStyles.screen}>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
@@ -28,15 +28,23 @@ function datasci() {
             </div>
 
             <section className={utilStyles.headingMd}>
-                <h1 className={utilStyles.title}>Data Science and Machine Learning</h1>
+                <h1 className={utilStyles.title}>About Us</h1>
                 <div className={utilStyles.container}>
-                <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img>
-                </div>
-                <div className={utilStyles.container}>
-
-                        
-            
-                    <p> Duration: 4 weeks</p>
+                <p>
+              💭 "The ultimate promise of technology is to make us masters of a world that we command by the push of a button"
+              </p>
+              <p>
+              👤 a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better
+              </p>
+              <p>
+              🗓 Sessions held every Wednesday from 9 to 11am
+              </p>
+              <p>
+              🎓 Offers courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>
+              </p>
+              <p>
+              🏆 Organises and participates in competitions and hackathons
+              </p>
                 </div>
 
                 <br></br>
@@ -81,4 +89,4 @@ function datasci() {
     )
 }
 
-export default datasci;
+export default aboutus;
