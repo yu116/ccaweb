@@ -11,39 +11,29 @@ export default function Home() {
           <title>RI CSS</title>
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
         </Head>
-        
-        <section className={utilStyles.headingMd}>
-          {/* Top row of buttons */}
-          <div className={utilStyles.subscreen}>  
-            <Link href="/aboutus">
-              <a className={utilStyles.btn}>About Us</a>
-            </Link>
 
-            <div className = {utilStyles.dropdown}>
-            <button className = {utilStyles.btn}>2021-2022 Activities/Courses</button>
-              <div className = {utilStyles.dropdowncontent}>
-                <Link href="/activities/backenddevt"> 📦 Backend Development </Link>
-                <Link href="/activities/competitiveprogramming"> 🔥 Competitive Programming </Link>
-                <Link href="/activities/datasciandmachinelearning"> 🤖 Data Science and Machine Learning </Link>
-                <Link href="/activities/incubatorprogramme"> 💭 Incubator Programmes </Link>
-                <Link href="/activities/ui-uxdesign"> 🎨 UI/UX Design </Link>
-                <Link href="/activities/webandmobileappdevt"> 📱 Web and Mobile App Development </Link>
-              </div>
+        <div className={utilStyles.navBar}>
+            
+            <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
+            <Link href="/aboutus"><a>About Us</a></Link>
+            
+            
+            <div className={utilStyles.dropdown}>
+                <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
+                <div className={utilStyles.dropdownContent}>
+                <Link href="/activities/backenddevt">Backend Development </Link>
+                <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
+                <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
+                <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
+                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
+                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
+                </div>
             </div>
+            <Link href="/competitions"><a>Competitions</a></Link>
+        </div>
 
-            <Link href="/competitions">
-              <a className={utilStyles.btn}>Competitions</a>
-            </Link>
-          </div>
-          
-          {/* Title */}
-          <h1 className={utilStyles.title}>Computer Science Society</h1>
-
-          {/* Bottom row of buttons */}
-          <div className={utilStyles.subscreen}>
-            <Image src="/ai.png" alt="CSS Group Photo" width = "500px" height = "300px"/>
-            <Image src="/webdevt.png" alt="CSS Group Photo" width = "400px" height = "300px"/>
-          </div>
+        <section className={utilStyles.cover}>
+          <h1 className={utilStyles.subtitle}>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</h1>
         </section>
       </div>
 
@@ -106,7 +96,7 @@ export default function Home() {
 
           <hr></hr>
 
-          <p>Copyright &#169; 2021 Raffles Institution Computer Science Society</p>
+          <p>&#169; 2021 Raffles Institution Computer Science Society</p>
       </section>
     </div>
   )
