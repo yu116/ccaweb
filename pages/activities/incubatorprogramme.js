@@ -28,7 +28,7 @@ export default function incubator() {
         </div>
 
             <section className={utilStyles.subscreen}>
-                <h1><b>Incubator programmes</b></h1>
+                <h1 className={utilStyles.h1}><b>Incubator Programmes</b></h1>
                 <div className={utilStyles.container}>
                 <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img>
                 </div>

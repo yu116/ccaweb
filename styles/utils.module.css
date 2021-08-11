@@ -25,6 +25,11 @@
   line-height: 1.5;
 }
 
+.h1 {
+  color: #06a783;
+  font-size: 35px;
+}
+
 .borderCircle {
   border-radius: 9999px;
 }
@@ -61,13 +66,12 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   text-align: center;
 }
 
 .subscreen {
-  margin-top: 10%;
 }
 
 .container {
@@ -86,6 +90,10 @@
   text-shadow: 3px 3px #06a783;
   z-index: 1;
   margin-top: 10%;
+}
+
+.p {
+  text-align: center;
 }
 
 .subtitle{
@@ -318,6 +326,11 @@
 }
 
 .link:hover {
+  color: #06a783;
+  text-decoration: none;
+}
+
+.a {
   color: #06a783;
   text-decoration: none;
 }
