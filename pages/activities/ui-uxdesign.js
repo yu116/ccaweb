@@ -29,12 +29,41 @@ function ui() {
                 <h1><b>UI-UX Design</b></h1>
                 <div className={utilStyles.container}>
                     <p>    
-                    This course aims to provide course participants with professional feedback on their mockups, and to learn more about UI/UX as a career path.
+                        This course aims to provide course participants with professional feedback on their mockups, and to learn more about UI/UX as a career path.
                     </p>
+                    
                     <p>
-                    Each team will submit a mockup and a brief product description.
+                        Each team will submit a mockup and a brief product description.
                     </p>
+                    
                     <p><b><u>Students' Works</u></b></p>
+                    
+                    <table className = {utilStyles.table}>
+                        <tr>
+                            <td>
+                            <Image src="/venue.png" alt="work1" width = "700px" height = "400px"/>
+                            </td>
+                            <td>
+                            <Image src="/eat.png" alt="work2" width = "700px" height = "400px"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            Figma prototype of website for booking school venues
+                            </td>
+                            <td>
+                            Figma prototype of website to tackle mental health
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            By Mike and Adrienne
+                            </td>
+                            <td>
+                            By Yongsheng and David
+                            </td>
+                        </tr>
+                    </table>
                 </div>
 
                 <br></br>
