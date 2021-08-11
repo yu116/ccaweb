@@ -27,7 +27,7 @@ function webandmobileappdevt() {
             <Link href="/competitions"><a>Competitions</a></Link>
         </div>
 
-            <section className={utilStyles.headingMd}>
+            <section className={utilStyles.subscreen}>
             <h1><b>Web and Mobile App Development</b></h1>
                 <div className={utilStyles.container}>
                 <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img>

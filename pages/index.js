@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       <section className={utilStyles.testimonials}>
-        <h2>Testimonials</h2>
+        <h2 className={utilStyles.h2}>Testimonials</h2>
         <div className={utilStyles.slider}>
             <Link href="#slide-1" scroll={false}><a>1</a></Link>
             <Link href="#slide-2" scroll={false}><a>2</a></Link>
