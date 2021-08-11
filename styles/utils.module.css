@@ -358,7 +358,8 @@
   }
 
   .subscreen {
-    column-gap: 10px;
+    margin-top: 5% ;
+    
   }
 }
 
@@ -385,6 +386,8 @@
   display: block;
 }
 
+
+
 /* Change color of dropdown links on hover */
 .dropdowncontent a:hover {background-color: #ddd;}
 
@@ -393,3 +396,7 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.table {
+  text-align: left;
+}
