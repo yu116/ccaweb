@@ -26,7 +26,7 @@ function Competitions() {
             <Link href="/competitions"><a>Competitions</a></Link>
         </div>
         
-            <h1 className={utilStyles.title}>Competitions</h1>
+            <h1 className={utilStyles.h1}>Competitions</h1>
             
             <p>🤯 National Olympiad in Informatics (NOI)</p>
             <p>👩‍💻 Whitehacks</p>
