@@ -45,28 +45,28 @@ function datasci() {
             <section className={utilStyles.footer}>
                 <div className={utilStyles.footercontent}>
                     <div className={utilStyles.li}>
-                        <span class="material-icons">place</span>
+                        <span className="material-icons">place</span>
                         <Link href="http://www.ri.edu.sg/visit-us">
                         <a target="_blank" className={utilStyles.link}>Our Location</a>
                         </Link>
                     </div>
 
                     <div className={utilStyles.li}>
-                        <span class="material-icons">mail</span>
+                        <span className="material-icons">mail</span>
                         <Link href="mailto:cssrjc@gmail.com">
                         <a target="_blank" className={utilStyles.link}>cssrjc@gmail.com</a>
                         </Link>
                     </div>
 
                     <div className={utilStyles.li}>
-                        <span class="material-icons">alternate_email</span>
+                        <span className="material-icons">alternate_email</span>
                         <Link href="https://www.instagram.com/rafflescss/">
                         <a target="_blank" className={utilStyles.link}>rafflescss</a>
                         </Link>
                     </div>
 
                     <div className={utilStyles.li}>
-                        <span class="material-icons">photo_camera</span>
+                        <span className="material-icons">photo_camera</span>
                         <Link href="https://www.instagram.com/rafflescss/">
                         <a className={utilStyles.link}>Photos</a>
                         </Link>
