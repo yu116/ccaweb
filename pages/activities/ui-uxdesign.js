@@ -1,31 +1,112 @@
 import Link from 'next/link'
 import utilStyles from '/styles/utils.module.css'
+import Image from 'next/image'
+
 function ui() {
     return (
         <div className={utilStyles.screen}>
-        <section className={utilStyles.headingMd}>
-            <h1 className={utilStyles.title}>UI-UX Design</h1>
-            <div className={utilStyles.container}>
-            <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img>
-            </div>
-            <div className={utilStyles.container}>
-                <p>    
-                Have you ever wondered why your website doesn’t look good? This courses teaches you how to design websites and mobile apps professionally from scratch. No design background or “art skills” required!
-</p>
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+            
+            <div className={utilStyles.navBar}>
+                <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
+                <Link href="/aboutus"><a>About Us</a></Link>
+                
+                <div className={utilStyles.dropdown}>
+                    <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
+                    <div className={utilStyles.dropdownContent}>
+                    <Link href="/activities/backenddevt">Backend Development </Link>
+                    <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
+                    <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
+                    <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
+                    <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
+                    <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
+                    </div>
+                </div>
+                <Link href="/competitions"><a>Competitions</a></Link>
             </div>
 
-            <br></br>
+            <section className={utilStyles.subscreen}>
+                <h1 className={utilStyles.h1}><b>UI-UX Design</b></h1>
+                <div className={utilStyles.container}>
+                    <p>    
+                        This course aims to provide course participants with professional feedback on their mockups, and to learn more about UI/UX as a career path.
+                    </p>
+                    
+                    <p>
+                        Each team will submit a mockup and a brief product description.
+                    </p>
 
-            <div className={utilStyles.subscreen}>
-                <Link href="/">
-                <a className={utilStyles.btn}>
-                    Back to Home
-                </a>
-                </Link>
-            </div>
+                    <br></br>
+                    
+                    <p><b><u>Students' Works</u></b></p>
+                    
+                    <table className = {utilStyles.table}>
+                        <tr>
+                            <td>
+                            <Image src="/venue.png" alt="work1" width = "700px" height = "400px"/>
+                            </td>
+                            <td>
+                            <Image src="/eat.png" alt="work2" width = "700px" height = "400px"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            Figma prototype of website for booking school venues
+                            </td>
+                            <td>
+                            Figma prototype of website to tackle mental health
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            By Mike and Adrienne
+                            </td>
+                            <td>
+                            By Yongsheng and David
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
-        </section>
-    </div>
+                <br></br>
+            </section>
+
+            <section className={utilStyles.footer}>
+                <div className={utilStyles.footercontent}>
+                    <div className={utilStyles.li}>
+                        <span class="material-icons">place</span>
+                        <Link href="http://www.ri.edu.sg/visit-us">
+                        <a target="_blank" className={utilStyles.link}>Our Location</a>
+                        </Link>
+                    </div>
+
+                    <div className={utilStyles.li}>
+                        <span class="material-icons">mail</span>
+                        <Link href="mailto:cssrjc@gmail.com">
+                        <a target="_blank" className={utilStyles.link}>cssrjc@gmail.com</a>
+                        </Link>
+                    </div>
+
+                    <div className={utilStyles.li}>
+                        <span class="material-icons">alternate_email</span>
+                        <Link href="https://www.instagram.com/rafflescss/">
+                        <a target="_blank" className={utilStyles.link}>rafflescss</a>
+                        </Link>
+                    </div>
+
+                    <div className={utilStyles.li}>
+                        <span class="material-icons">photo_camera</span>
+                        <Link href="https://www.instagram.com/rafflescss/">
+                        <a className={utilStyles.link}>Photos</a>
+                        </Link>
+                    </div>
+                </div>
+
+                <hr></hr>
+
+                <p>&#169; 2021 Raffles Institution Computer Science Society</p>
+            </section>
+        </div>
     )
 }
 
