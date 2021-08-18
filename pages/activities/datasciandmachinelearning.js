@@ -28,7 +28,7 @@ function datasci() {
         </div>
 
             <section>
-                <h1 className={utilStyles.h1}><b>Incubator Programmes</b></h1>
+                <h1 className={utilStyles.h1}><b>Data Science and Machine Learning</b></h1>
                 <div className={utilStyles.container}>
                     <p>Wanna do something else during CCA time? Like</p>
                     <ul className={utilStyles.ul}>
