@@ -34,6 +34,8 @@ function OurMembers() {
                 <tr> <td><Image src="/ai.png" alt="CSS exco" width = "500px" height = "300px"/></td>
                 <td> <Image src="/webdevt.png" alt="CSS exco" width = "400px" height = "300px"/></td></tr>
                 </table>
+
+                <br></br>
             </section>
 
             <section className={utilStyles.footer}>
