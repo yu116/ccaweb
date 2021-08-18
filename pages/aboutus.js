@@ -29,10 +29,14 @@ function aboutus() {
                 <h1><b>About Us</b></h1>
                 <div className={utilStyles.container}>
                     <p>
+<<<<<<< HEAD
                         Ever wanted to learn coding but not sure how to begin? We're a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>. Members of our CCA has extremely diverse. We welcome students of all skill levels, from absolute beginners to programming experts.
+=======
+                        Ever wanted to learn coding but not sure how to begin? We're a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <a className={utilStyles.a} href="/activities/datasciandmachinelearning"> Data Science </a>to <a className={utilStyles.a} href="/activities/webandmobileappdevt">Web Development </a>. Members of our CCA has extremely diverse. Some have internship experiences, while other have none at all. We welcome students of all skill levels, from absolute beginners to programming experts.
+>>>>>>> d589841af5f0977114f8a1fb99753dde294c4e74
                     </p>
                     <p>
-                        Sessions held every Wednesday from 9 to 11am
+                        By the way, sessions are held every Wednesday (our school's Gap Day) from 9 to 11am!
                     </p>
                 </div>
                 <p><b><u>EXCO 2020-2021</u></b></p>
