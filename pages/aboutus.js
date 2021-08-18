@@ -27,22 +27,18 @@ function aboutus() {
                 <Link href="/competitions"><a>Competitions</a></Link>
             </div>
             
-
-            <section className={utilStyles.headingMd}>
+            <section className = {utilStyles.subscreen}>
                 <h1><b>About Us</b></h1>
                 <div className={utilStyles.container}>
-                <p>
-                Ever wanted to learn coding but not sure how to begin? We're a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>. Members of our CCA has extremely diverse. Some have internship experiences, while other have none at all. We welcome students of all skill levels, from absolute beginners to programming experts.
-              </p>
-              <p>
-              Sessions held every Wednesday from 9 to 11am
-              </p>
+                    <p>
+                        Ever wanted to learn coding but not sure how to begin? We're a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>. Members of our CCA has extremely diverse. Some have internship experiences, while other have none at all. We welcome students of all skill levels, from absolute beginners to programming experts.
+                    </p>
+                    <p>
+                        Sessions held every Wednesday from 9 to 11am
+                    </p>
                 </div>
-                <p> <b><u>EXCO 2020-2021</u></b></p>
+                <p><b><u>EXCO 2020-2021</u></b></p>
                 <Image src="/exco.png" alt="CSS exco" width = "500px" height = "300px"/>
-                
-
-                <br></br>
             </section>
 
             <section className={utilStyles.footer}>

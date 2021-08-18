@@ -21,24 +21,24 @@ export default function Home() {
             <div className={utilStyles.dropdown}>
                 <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
                 <div className={utilStyles.dropdownContent}>
+                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
+                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 <Link href="/activities/backenddevt">Backend Development </Link>
                 <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
                 <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
                 <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
-                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
-                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 </div>
             </div>
             <Link href="/competitions"><a>Competitions</a></Link>
         </div>
 
         <section className={utilStyles.cover}>
-          <h1 className={utilStyles.subtitle}>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</h1>
+          {/* <h1 className={utilStyles.subtitle}>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</h1> */}
         </section>
       </div>
 
       <section className={utilStyles.testimonials}>
-        <h2>Testimonials</h2>
+        <h2 className={utilStyles.h2}>Testimonials</h2>
         <div className={utilStyles.slider}>
             <Link href="#slide-1" scroll={false}><a>1</a></Link>
             <Link href="#slide-2" scroll={false}><a>2</a></Link>
@@ -46,13 +46,14 @@ export default function Home() {
             
             <div className={utilStyles.slides}>
                 <div name="slide-1" id="slide-1" className={utilStyles.slide}>
-                    <blockquote>"I love CSS!"</blockquote>
-                    <p>~ Member 1</p>
+                <blockquote>CSS is love. CSS is life. </blockquote>
+                    <p>~ Huang Ziwen</p>
+               
                 </div>
                 
                 <div name="slide-2" id="slide-2" className={utilStyles.slide}>
-                    <blockquote>"I love CSS too!"</blockquote>
-                    <p>~ Member 2</p>
+                <blockquote>CSS is a place where you explore new possibilities and expand your creativity.</blockquote>
+                <p>~ Lee Baoyu</p>
                 </div>
                 
                 <div id="slide-3" className={utilStyles.slide}>

@@ -13,8 +13,8 @@ export default function Testimonials() {
                    
                     <div className={utilStyles.slides}>
                         <div name="slide-1" id="slide-1" className={utilStyles.slide}>
-                            <blockquote>"I love CSS!"</blockquote>
-                            <p>~ Member 1</p>
+                            <blockquote>CSS is a place where you explore new possibilities and expand your creativity.</blockquote>
+                            <p>~ Lee Baoyu</p>
                         </div>
                         
                         <div name="slide-2" id="slide-2" className={utilStyles.slide}>

@@ -16,25 +16,26 @@ function backend() {
             <div className={utilStyles.dropdown}>
                 <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
                 <div className={utilStyles.dropdownContent}>
+                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
+                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 <Link href="/activities/backenddevt">Backend Development </Link>
                 <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
                 <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
                 <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
-                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
-                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
+               
                 </div>
             </div>
             <Link href="/competitions"><a>Competitions</a></Link>
         </div>
-            <section className={utilStyles.headingMd}>
+            <section className={utilStyles.subscreen}>
                 <h1><b>Backend Development</b></h1>
                 <div className={utilStyles.container}>
                 {/* <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img> */}
                 </div>
                 <div className={utilStyles.container}>
                     <p>
-                        
-                    Instead of command line applications, you’ll learn to program apps that anyone can access across the internet. This is the backbone of all online apps, mobile or web, and is what you’ll need to turn YOUR million dollar idea into reality. NodeJS, Express, DBs, Auth and Sockets are ALL on the cards.</p>
+                    Backend developers work behind the scenes. Without them, there would be nothing behind the scenes, in fact, the scene would simply be just that – a scene – with nothing else in front or behind it. The “scene” is brought across a flat plane lacking in dimensionality. The “scene” merely presents itself in breadth, spanning across a screen. Backend developers adds a dimension to any project – not only does the scene have breadth, but the presence of a “behind-the-scenes” gives depth – showcased in terms of creativity, innovation and good looks. Students explored NodeJS, Express, DBs and Auth through hands-on projects in this course.
+                    </p>
                     <p> Duration: 4 weeks</p>
                 </div>
 
