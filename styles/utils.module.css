@@ -28,6 +28,7 @@
 .h1 {
   color: #06a783;
   font-size: 35px;
+  margin-top: 10%;
 }
 
 .borderCircle {
@@ -79,6 +80,7 @@
   justify-content: space-between;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 7%;
 }
 
 .alternate {
@@ -118,7 +120,7 @@
   text-shadow: 2px 3px black;
   color: white;
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 13%;
   font-family: 'Source Code Pro', monospace;
 }
 
@@ -224,6 +226,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 7%;
 }
 
 .h2 {
@@ -398,6 +401,10 @@
   
   .slide p {
     font-size: 12px;
+  }
+
+  .testimonials, .screen {
+    margin-bottom: 20%;
   }
 }
 
