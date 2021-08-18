@@ -73,12 +73,25 @@
 
 .screen {
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   text-align: center;
+  padding: 20px;
+}
+
+.alternate {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 100px;
+  background-color: white;
 }
 
 .container {
@@ -140,9 +153,6 @@
   align-items: center;
   justify-content: space-around;
   z-index: 4;
-  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
 .navBar a {
@@ -221,6 +231,12 @@
   z-index: 0;
 }
 
+.h2Alt {
+  font-size: 50px;
+  text-shadow: 1.5px 1.5px #06a783;
+  z-index: 0;
+}
+
 .slides {
   width: 70%;
   display: flex;
@@ -283,7 +299,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 25px;
 }
 
 .slide blockquote {
@@ -366,8 +381,22 @@
     font-size: 1rem;
   }
 
-  .subscreen {
-    column-gap: 10px;
+  .link {
+    font-size: 10px;
+  }
+
+  .navBar a {
+    padding: 5px 8px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .slide blockquote {
+    font-size: 10px;
+  }
+  
+  .slide p {
+    font-size: 12px;
   }
 }
 
