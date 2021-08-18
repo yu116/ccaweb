@@ -61,7 +61,6 @@ function ui() {
                             By Yongsheng and David
                             </td>
                         </tr>
-                      
                     </table>
                 </div>
 
