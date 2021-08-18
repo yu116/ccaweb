@@ -14,12 +14,12 @@ function ui() {
                 <div className={utilStyles.dropdown}>
                     <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
                     <div className={utilStyles.dropdownContent}>
-                    <Link href="/activities/backenddevt">Backend Development </Link>
-                    <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
-                    <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
-                    <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
                     <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
-                    <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
+                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
+                <Link href="/activities/backenddevt">Backend Development </Link>
+                <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
+                <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
+                <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
                     </div>
                 </div>
                 <Link href="/competitions"><a>Competitions</a></Link>
@@ -40,7 +40,7 @@ function ui() {
                     
                     <p><b><u>Students' Works</u></b></p>
                     
-                    <table className = {utilStyles.table}>
+                    <table className={utilStyles.table}>
                         <tr>
                             <td>
                             <Image src="/venue.png" alt="work1" width = "700px" height = "400px"/>
@@ -52,19 +52,16 @@ function ui() {
                         <tr>
                             <td>
                             Figma prototype of website for booking school venues
-                            </td>
-                            <td>
-                            Figma prototype of website to tackle mental health
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
+                            <br></br>
                             By Mike and Adrienne
                             </td>
                             <td>
+                            Figma prototype of website to tackle mental health
+                            <br></br>
                             By Yongsheng and David
                             </td>
                         </tr>
+                      
                     </table>
                 </div>
 

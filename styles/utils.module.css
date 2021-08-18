@@ -116,10 +116,10 @@
 
 .subtitle{
   font-size: 2rem;
-  text-shadow: 2px 3px white;
-  color: black;
+  text-shadow: 2px 3px black;
+  color: white;
   z-index: 1;
-  margin-top: 35%;
+  margin-top: 5%;
 }
 
 .btn {
@@ -195,7 +195,7 @@
 .cover {
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(#00000000, #00000000), url(../public/webdevt.png);
+  background-image: linear-gradient(#00000000, #00000000), url(../public/cssbg.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -423,6 +423,8 @@
   display: block;
 }
 
+
+
 /* Change color of dropdown links on hover */
 .dropdowncontent a:hover {background-color: #ddd;}
 
@@ -431,3 +433,8 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.table {
+  text-align: left;
+  border-spacing: 20px;
+}

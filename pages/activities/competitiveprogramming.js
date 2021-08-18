@@ -16,12 +16,12 @@ function competitive() {
             <div className={utilStyles.dropdown}>
                 <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
                 <div className={utilStyles.dropdownContent}>
+                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
+                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 <Link href="/activities/backenddevt">Backend Development </Link>
                 <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
                 <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
                 <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
-                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
-                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 </div>
             </div>
             <Link href="/competitions"><a>Competitions</a></Link>
@@ -30,15 +30,20 @@ function competitive() {
             <section>
                 <h1 className={utilStyles.h1}><b>Competitive Programming</b></h1>
                 <div className={utilStyles.container}>
-                <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img>
+                
                 </div>
                 <div className={utilStyles.container}>
                     <p>
-                        
-                    Introduction to Informatics Olympiad
-                    Algorithmic thinking
-                    Simple classic algorithms and tricks
-                    Analysis of time and memory complexity</p>
+                    Participants were taught the fundamentals of competitive programming which includes algorithms and run-time analysis to solve problems in a stipulated time.    
+                   
+                    </p>
+                    <p> Duration: 4 weeks</p>
+                    <p>
+                    <Image src="/cp.jpeg" alt="contest board" width = "500px" height = "250px"/>
+                    </p>
+                    <p>
+                    
+                    </p>
                 </div>
 
                 <br></br>

@@ -13,26 +13,25 @@ export default function Home() {
         </Head>
 
         <div className={utilStyles.navBar}>
-            
             <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
             <Link href="/our-members"><a>Our Members</a></Link>
             
             <div className={utilStyles.dropdown}>
                 <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
                 <div className={utilStyles.dropdownContent}>
+                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
+                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 <Link href="/activities/backenddevt">Backend Development </Link>
                 <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
                 <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
                 <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
-                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
-                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 </div>
             </div>
             <Link href="/competitions"><a>Competitions</a></Link>
         </div>
 
         <section className={utilStyles.cover}>
-          <p className={utilStyles.subtitle}><i>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</i></p>
+          <p className={utilStyles.subtitle}><i>Technology makes us masters of a world that we command by the push of a button.</i></p>
         </section>
       </div>
 
@@ -62,13 +61,13 @@ export default function Home() {
                 </div>
                 
                 <div name="slide-2" id="slide-2" className={utilStyles.slide}>
-                    <blockquote>"I love CSS too!"</blockquote>
-                    <p>~ Member 2</p>
+                  <blockquote>CSS is a place where you explore new possibilities and expand your creativity.</blockquote>
+                  <p>~ Lee Baoyu</p>
                 </div>
                 
                 <div id="slide-3" className={utilStyles.slide}>
-                    <blockquote>"I love CSS three!"</blockquote>
-                    <p>~ Member 3</p>
+                  <blockquote>CSS is love. CSS is life. </blockquote>
+                  <p>~ Huang Ziwen</p>
                 </div>
             </div>
         </div>
