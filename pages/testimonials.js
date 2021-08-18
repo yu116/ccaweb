@@ -10,7 +10,6 @@ export default function Testimonials() {
                     <Link href="#slide-1" scroll={false}><a>1</a></Link>
                     <Link href="#slide-2" scroll={false}><a>2</a></Link>
                     <Link href="#slide-3" scroll={false}><a>3</a></Link>
-                   
                     <div className={utilStyles.slides}>
                         <div name="slide-1" id="slide-1" className={utilStyles.slide}>
                             <blockquote>CSS is a place where you explore new possibilities and expand your creativity.</blockquote>
