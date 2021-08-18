@@ -13,7 +13,6 @@ export default function Home() {
         </Head>
 
         <div className={utilStyles.navBar}>
-            
             <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
             <Link href="/aboutus"><a>About Us</a></Link>
             
@@ -32,7 +31,7 @@ export default function Home() {
         </div>
 
         <section className={utilStyles.cover}>
-          <p className={utilStyles.subtitle}><i>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</i></p>
+          <p className={utilStyles.subtitle}><i>Technology makes us masters of a world that we command by the push of a button.</i></p>
         </section>
       </div>
 
