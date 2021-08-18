@@ -314,9 +314,13 @@
 
 .footer {
   margin: 0 auto;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: black;
   width: 100vw;
+  height: fit-content;
+  position: fixed;
+  bottom: 0;
 }
 
 .footercontent {
