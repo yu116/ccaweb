@@ -29,6 +29,11 @@ function OurMembers() {
                 <h1 className={utilStyles.h1}><b>Our Members</b></h1>
                 <p><b><u>EXCO 2020-2021</u></b></p>
                 <Image src="/exco.png" alt="CSS exco" width = "500px" height = "300px"/>
+                <p><b><u>Members</u></b></p>
+                <table>
+                <tr> <td><Image src="/ai.png" alt="CSS exco" width = "500px" height = "300px"/></td>
+               <td> <Image src="/webdevt.png" alt="CSS exco" width = "400px" height = "300px"/></td></tr>
+                </table>
             </section>
 
             <section className={utilStyles.footer}>
