@@ -27,11 +27,11 @@ function Competitions() {
         </div>
         
             <h1 className={utilStyles.h1}>Competitions</h1>
-            <Image src="/noi.png" alt="National Olympiad in Informatics (NOI)" width = "500px" height = "300px"/>
+            <Image src="/noi.png" alt="National Olympiad in Informatics (NOI)" width = "500px" height = "200px"/>
             <br></br>
-            <Image src="/whitehacks.jpeg" alt="Whitehacks" width = "500px" height = "300px"/>
+            <Image src="/whitehacks.jpeg" alt="Whitehacks" width = "500px" height = "200px"/>
             <br></br>
-            <Image src="/brainhack.png" alt="BrainHack" width = "500px" height = "300px"/>
+            <Image src="/brainhack.png" alt="BrainHack" width = "500px" height = "200px"/>
                 
             <br></br>
             
