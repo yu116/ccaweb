@@ -27,13 +27,8 @@ function webandmobileappdevt() {
             <Link href="/competitions"><a>Competitions</a></Link>
         </div>
 
-<<<<<<< HEAD
-            <section className={utilStyles.headingMd}>
-            <h1><b>Web and Mobile App Development</b></h1>
-=======
             <section className={utilStyles.subscreen}>
             <h1 className={utilStyles.h1}><b>Web and Mobile App Development</b></h1>
->>>>>>> 379b0a946a9c0281db5ad462090c7f677721122a
                 <div className={utilStyles.container}>
                 <p></p>
                 <p> Duration: 4 weeks</p>

@@ -15,7 +15,6 @@ function ui() {
                     <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
                     <div className={utilStyles.dropdownContent}>
                     <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
-                    <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
                 <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 <Link href="/activities/backenddevt">Backend Development </Link>
                 <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
