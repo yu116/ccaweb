@@ -20,12 +20,12 @@ export default function Home() {
             <div className={utilStyles.dropdown}>
                 <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
                 <div className={utilStyles.dropdownContent}>
+                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
+                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 <Link href="/activities/backenddevt">Backend Development </Link>
                 <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
                 <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
                 <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
-                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
-                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                 </div>
             </div>
             <Link href="/competitions"><a>Competitions</a></Link>
@@ -45,13 +45,14 @@ export default function Home() {
             
             <div className={utilStyles.slides}>
                 <div name="slide-1" id="slide-1" className={utilStyles.slide}>
-                    <blockquote>"I love CSS!"</blockquote>
-                    <p>~ Member 1</p>
+                <blockquote>CSS is love. CSS is life. </blockquote>
+                    <p>~ Huang Ziwen</p>
+               
                 </div>
                 
                 <div name="slide-2" id="slide-2" className={utilStyles.slide}>
-                    <blockquote>"I love CSS too!"</blockquote>
-                    <p>~ Member 2</p>
+                <blockquote>CSS is a place where you explore new possibilities and expand your creativity.</blockquote>
+                <p>~ Lee Baoyu</p>
                 </div>
                 
                 <div id="slide-3" className={utilStyles.slide}>
