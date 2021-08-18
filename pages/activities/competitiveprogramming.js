@@ -29,9 +29,7 @@ function competitive() {
 
             <section>
                 <h1 className={utilStyles.h1}><b>Competitive Programming</b></h1>
-                <div className={utilStyles.container}>
-                
-                </div>
+               
                 <div className={utilStyles.container}>
                     <p>
                     Participants were taught the fundamentals of competitive programming which includes algorithms and run-time analysis to solve problems in a stipulated time.    
