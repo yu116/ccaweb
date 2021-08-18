@@ -191,7 +191,7 @@
 .cover {
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(#00000000, #00000000), url(../public/cssbg.jpeg);
+  background-image: linear-gradient(#00000000, #00000000), url(../public/cssbg.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
