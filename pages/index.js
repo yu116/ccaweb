@@ -10,6 +10,7 @@ export default function Home() {
         <Head>
           <title>RI CSS</title>
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"></link>
         </Head>
 
         <div className={utilStyles.navBar}>
@@ -56,18 +57,18 @@ export default function Home() {
             
             <div className={utilStyles.slides}>
                 <div name="slide-1" id="slide-1" className={utilStyles.slide}>
-                    <blockquote>CSS is an enriching CCA for all who are passionate about programming! The courses it offers are useful and interesting, and the incubator programme, in particular, promotes creativity and presents the chance for members to experiment and create innovative projects. By and large, anyone who wants to learn computer science should definitely try out for CSS!</blockquote>
-                    <p>~ Nyx</p>
+                    <blockquote>"CSS is an enriching CCA for all who are passionate about programming! The courses it offers are useful and interesting, and the incubator programme, in particular, promotes creativity and presents the chance for members to experiment and create innovative projects. By and large, anyone who wants to learn computer science should definitely try out for CSS!"</blockquote>
+                    <p>~ Nyx Audrey Angelo Iskandar ~</p>
                 </div>
                 
                 <div name="slide-2" id="slide-2" className={utilStyles.slide}>
-                  <blockquote>CSS is a place where you explore new possibilities and expand your creativity.</blockquote>
-                  <p>~ Lee Baoyu</p>
+                  <blockquote>"CSS is a place where you explore new possibilities and expand your creativity."</blockquote>
+                  <p>~ Lee Baoyu ~</p>
                 </div>
                 
                 <div id="slide-3" className={utilStyles.slide}>
-                  <blockquote>CSS is love. CSS is life. </blockquote>
-                  <p>~ Huang Ziwen</p>
+                  <blockquote>"CSS is love. CSS is life."</blockquote>
+                  <p>~ Huang Ziwen ~</p>
                 </div>
             </div>
         </div>
