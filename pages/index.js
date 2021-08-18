@@ -14,7 +14,7 @@ export default function Home() {
 
         <div className={utilStyles.navBar}>
             <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
-            <Link href="/aboutus"><a>About Us</a></Link>
+            <Link href="/our-members"><a>Our Members</a></Link>
             
             <div className={utilStyles.dropdown}>
                 <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
@@ -35,6 +35,18 @@ export default function Home() {
         </section>
       </div>
 
+      <section className={utilStyles.alternate}>
+        <h2 className={utilStyles.h2Alt}>About Us</h2>
+          <div className={utilStyles.container}>
+              <p>
+                  Ever wanted to learn coding but not sure how to begin? Look no further! We, the Computer Science Society, are a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <a href="/activities/datasciandmachinelearning" className={utilStyles.a}>Data Science</a> to <a href="/activities/webandmobileappdevt" className={utilStyles.a}>Web Development</a>, so you know that our members are extremely diverse. We welcome students of all skill levels, from absolute beginners to programming experts.
+              </p>
+              <p>
+                  By the way, sessions are held every Wednesday (our school's Gap Day) from 9 to 11am!
+              </p>
+          </div>
+      </section>
+
       <section className={utilStyles.testimonials}>
         <h2 className={utilStyles.h2}>Testimonials</h2>
         <div className={utilStyles.slider}>
@@ -44,19 +56,18 @@ export default function Home() {
             
             <div className={utilStyles.slides}>
                 <div name="slide-1" id="slide-1" className={utilStyles.slide}>
-                <blockquote>CSS is love. CSS is life. </blockquote>
-                    <p>~ Huang Ziwen</p>
-               
+                    <blockquote>CSS is an enriching CCA for all who are passionate about programming! The courses it offers are useful and interesting, and the incubator programme, in particular, promotes creativity and presents the chance for members to experiment and create innovative projects. By and large, anyone who wants to learn computer science should definitely try out for CSS!</blockquote>
+                    <p>~ Nyx</p>
                 </div>
                 
                 <div name="slide-2" id="slide-2" className={utilStyles.slide}>
-                <blockquote>CSS is a place where you explore new possibilities and expand your creativity.</blockquote>
-                <p>~ Lee Baoyu</p>
+                  <blockquote>CSS is a place where you explore new possibilities and expand your creativity.</blockquote>
+                  <p>~ Lee Baoyu</p>
                 </div>
                 
                 <div id="slide-3" className={utilStyles.slide}>
-                    <blockquote>"I love CSS three!"</blockquote>
-                    <p>~ Member 3</p>
+                  <blockquote>CSS is love. CSS is life. </blockquote>
+                  <p>~ Huang Ziwen</p>
                 </div>
             </div>
         </div>

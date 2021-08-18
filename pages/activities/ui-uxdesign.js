@@ -9,7 +9,7 @@ function ui() {
             
             <div className={utilStyles.navBar}>
                 <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
-                <Link href="/aboutus"><a>About Us</a></Link>
+                <Link href="/our-members"><a>Our Members</a></Link>
                 
                 <div className={utilStyles.dropdown}>
                     <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
@@ -25,7 +25,7 @@ function ui() {
                 <Link href="/competitions"><a>Competitions</a></Link>
             </div>
 
-            <section className={utilStyles.subscreen}>
+            <section>
                 <h1 className={utilStyles.h1}><b>UI-UX Design</b></h1>
                 <div className={utilStyles.container}>
                     <p>    

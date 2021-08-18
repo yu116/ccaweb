@@ -73,21 +73,28 @@
 
 .screen {
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   text-align: center;
-
+  padding: 20px;
 }
 
-.subscreen {
+.alternate {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 100px;
+  background-color: white;
 }
 
 .container {
-  /* height: 100vh;
-  width: 100vw; */
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -146,9 +153,6 @@
   align-items: center;
   justify-content: space-around;
   z-index: 4;
-  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
 .navBar a {
@@ -201,10 +205,8 @@
   background-color: #e8e8e8;
   font-size: 1.2rem;
   line-height: 1.5;
-
   height: 100vh;
   width: 100vw;
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -216,7 +218,6 @@
   background-color: #06a783;
   font-size: 1.2rem;
   line-height: 1.5;
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,16 +231,19 @@
   z-index: 0;
 }
 
+.h2Alt {
+  font-size: 50px;
+  text-shadow: 1.5px 1.5px #06a783;
+  z-index: 0;
+}
+
 .slides {
   width: 70%;
-  
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-
   margin: 3% auto;
   z-index: 3;
 }
@@ -261,7 +265,6 @@
   height: 300px;
   background: white;
   border-radius: 25px;
-
   transform-origin: center center;
   transition: transform 0.4s;
   position: relative;
@@ -274,20 +277,15 @@
 
 .slider > a {
   display: inline-flex;
-  
   width: 1.5rem;
   height: 1.5rem;
-
   background: white;
   text-decoration: none;
-
   align-items: center;
   justify-content: center;
-  
   border-radius: 50%;
   margin: 0 0 0.5rem 0;
   position: relative;
-
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
   margin: 0.5% 0.5%;
 }
@@ -301,14 +299,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 25px;
 }
 
 .slide blockquote {
   width: 100%;
   text-align: start;
   padding-left: 3%;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .slide p {
@@ -320,7 +317,7 @@
 
 .footer {
   margin: 0 auto;
-  padding: 1%;
+  padding: 20px;
   background-color: black;
   width: 100vw;
 }
@@ -384,7 +381,23 @@
     font-size: 1rem;
   }
 
+  .link {
+    font-size: 10px;
+  }
+
+  .navBar a {
+    padding: 5px 8px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .slide blockquote {
+    font-size: 10px;
+  }
   
+  .slide p {
+    font-size: 12px;
+  }
 }
 
 .dropdown {
