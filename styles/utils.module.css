@@ -28,6 +28,7 @@
 .h1 {
   color: #06a783;
   font-size: 35px;
+  margin-top: 10%;
 }
 
 .borderCircle {
@@ -118,7 +119,7 @@
   text-shadow: 2px 3px black;
   color: white;
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 13%;
   font-family: 'Source Code Pro', monospace;
 }
 
