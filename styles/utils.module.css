@@ -144,7 +144,7 @@
 
 .navBar {
   background-color: white;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   display: flex;
@@ -152,6 +152,7 @@
   align-items: center;
   justify-content: space-around;
   z-index: 4;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .navBar a {
