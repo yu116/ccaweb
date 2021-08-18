@@ -30,7 +30,7 @@ function webandmobileappdevt() {
             <section className={utilStyles.subscreen}>
             <h1 className={utilStyles.h1}><b>Web and Mobile App Development</b></h1>
                 <div className={utilStyles.container}>
-                <p></p>
+                <p>Participants learnt the basics of building a mobile application using the React Native framework from scratch, including the creation of a functional and appealing User Interface.</p>
                 <p> Duration: 4 weeks</p>
                 <p><b><u> Students' Works </u></b></p>
                 <table className={utilStyles.table}>

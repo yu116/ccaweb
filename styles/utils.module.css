@@ -424,4 +424,6 @@
 .table {
   text-align: left;
   border-spacing: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
