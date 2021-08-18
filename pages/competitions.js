@@ -34,6 +34,7 @@ function Competitions() {
             <Image src="/brainhack.png" alt="BrainHack" width = "500px" height = "200px"/>
                 
             <br></br>
+            <br></br>
             
             <section className={utilStyles.footer}>
                 <div className={utilStyles.footercontent}>

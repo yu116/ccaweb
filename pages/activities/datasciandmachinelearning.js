@@ -30,31 +30,14 @@ function datasci() {
             <section>
                 <h1 className={utilStyles.h1}><b>Data Science and Machine Learning</b></h1>
                 <div className={utilStyles.container}>
-                    <p>Wanna do something else during CCA time? Like</p>
-                    <ul className={utilStyles.ul}>
-                        <li className={utilStyles.li}>
-                            <span className="material-icons">emoji_events</span>
-                            <p>Prepare for a computer-science related competition</p>
-                        </li>
-
-                        <li className={utilStyles.li}>
-                            <span className="material-icons">people</span>
-                            <p>Start your own project with like-minded individuals*</p>
-                        </li>
-
-                        <li className={utilStyles.li}>
-                            <span className="material-icons">computer</span>
-                            <p>Learn a different specialization (e.g. Arduino)</p>
-                        </li>
-                    </ul>
+                    <p></p>
+                   
                     
                     <p>
-                    Then the Incubator Programme is just for you! You get to work on your OWN project during CCA time and receive mentorship from our EXCO members. Approach one of them if you wish to take part.
+                    Then the Data Science course is just for you! You get to work on your OWN project during CCA time and receive mentorship from our EXCO members. Approach one of them if you wish to take part.
                     </p>
                     <br></br>
-                    <p className={utilStyles.funFact}>
-                        *Fun fact: This website was developed under the Incubator Programme
-                    </p>
+                    
 
                 </div>
 
