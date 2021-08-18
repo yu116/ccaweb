@@ -10,7 +10,7 @@ export default function incubator() {
             <div className={utilStyles.navBar}>
             
             <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
-            <Link href="/aboutus"><a>About Us</a></Link>
+            <Link href="/our-members"><a>Our Members</a></Link>
             
             
             <div className={utilStyles.dropdown}>
@@ -27,7 +27,7 @@ export default function incubator() {
             <Link href="/competitions"><a>Competitions</a></Link>
         </div>
 
-            <section className={utilStyles.subscreen}>
+            <section>
                 <h1 className={utilStyles.h1}><b>Incubator Programmes</b></h1>
                 <div className={utilStyles.container}>
                     <p>Wanna do something else during CCA time? Like</p>

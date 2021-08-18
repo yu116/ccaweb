@@ -9,7 +9,7 @@ function Competitions() {
         <div className={utilStyles.navBar}>
             
             <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
-            <Link href="/aboutus"><a>About Us</a></Link>
+            <Link href="/our-members"><a>Our Members</a></Link>
             
             
             <div className={utilStyles.dropdown}>
@@ -34,10 +34,7 @@ function Competitions() {
             <p>and many more!</p>
                 
             <br></br>
-
-            <div className={utilStyles.subscreen}>
-                
-            </div>
+            
             <section className={utilStyles.footer}>
                 <div className={utilStyles.footercontent}>
                     <div className={utilStyles.li}>

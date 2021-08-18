@@ -2,7 +2,7 @@ import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 import Image from 'next/image'
 
-function aboutus() {
+function OurMembers() {
     return (
         <div className={utilStyles.screen}>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
@@ -10,7 +10,7 @@ function aboutus() {
             <div className={utilStyles.navBar}>
                 
                 <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
-                <Link href="/aboutus"><a>About Us</a></Link>
+                <Link href="/our-members"><a>Our Members</a></Link>
                 
                 <div className={utilStyles.dropdown}>
                     <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
@@ -26,16 +26,8 @@ function aboutus() {
                 <Link href="/competitions"><a>Competitions</a></Link>
             </div>
             
-            <section className = {utilStyles.subscreen}>
-                <h1 className={utilStyles.h1}><b>About Us</b></h1>
-                <div className={utilStyles.container}>
-                    <p>
-                        Ever wanted to learn coding but not sure how to begin? Look no further! We, the Computer Science Society, are a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <a href="/activities/datasciandmachinelearning" className={utilStyles.a}>Data Science</a> to <a href="/activities/webandmobileappdevt" className={utilStyles.a}>Web Development</a>, so you know that our members are extremely diverse. We welcome students of all skill levels, from absolute beginners to programming experts.
-                    </p>
-                    <p>
-                        By the way, sessions are held every Wednesday (our school's Gap Day) from 9 to 11am!
-                    </p>
-                </div>
+            <section className = {utilStyles.screen}>
+                <h1 className={utilStyles.h1}><b>Our Members</b></h1>
                 <p><b><u>EXCO 2020-2021</u></b></p>
                 <Image src="/exco.png" alt="CSS exco" width = "500px" height = "300px"/>
             </section>
@@ -79,4 +71,4 @@ function aboutus() {
     )
 }
 
-export default aboutus;
+export default OurMembers;

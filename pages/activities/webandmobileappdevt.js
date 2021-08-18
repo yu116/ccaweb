@@ -10,7 +10,7 @@ function webandmobileappdevt() {
             <div className={utilStyles.navBar}>
             
             <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
-            <Link href="/aboutus"><a>About Us</a></Link>
+            <Link href="/our-members"><a>Our Members</a></Link>
             
             
             <div className={utilStyles.dropdown}>
@@ -27,7 +27,7 @@ function webandmobileappdevt() {
             <Link href="/competitions"><a>Competitions</a></Link>
         </div>
 
-            <section className={utilStyles.subscreen}>
+            <section>
             <h1 className={utilStyles.h1}><b>Web and Mobile App Development</b></h1>
                 <div className={utilStyles.container}>
                 <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img>
