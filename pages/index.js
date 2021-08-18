@@ -15,7 +15,7 @@ export default function Home() {
         <div className={utilStyles.navBar}>
             
             <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
-            <Link href="/aboutus"><a>About Us</a></Link>
+            <Link href="/our-members"><a>Our Members</a></Link>
             
             <div className={utilStyles.dropdown}>
                 <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
@@ -35,6 +35,18 @@ export default function Home() {
           <p className={utilStyles.subtitle}><i>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</i></p>
         </section>
       </div>
+
+      <section className={utilStyles.alternate}>
+        <h2 className={utilStyles.h2Alt}>About Us</h2>
+          <div className={utilStyles.container}>
+              <p>
+                  Ever wanted to learn coding but not sure how to begin? Look no further! We, the Computer Science Society, are a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <a href="/activities/datasciandmachinelearning" className={utilStyles.a}>Data Science</a> to <a href="/activities/webandmobileappdevt" className={utilStyles.a}>Web Development</a>, so you know that our members are extremely diverse. We welcome students of all skill levels, from absolute beginners to programming experts.
+              </p>
+              <p>
+                  By the way, sessions are held every Wednesday (our school's Gap Day) from 9 to 11am!
+              </p>
+          </div>
+      </section>
 
       <section className={utilStyles.testimonials}>
         <h2 className={utilStyles.h2}>Testimonials</h2>
