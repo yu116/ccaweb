@@ -12,7 +12,6 @@ function aboutus() {
                 <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
                 <Link href="/aboutus"><a>About Us</a></Link>
                 
-                
                 <div className={utilStyles.dropdown}>
                     <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
                     <div className={utilStyles.dropdownContent}>
@@ -28,10 +27,10 @@ function aboutus() {
             </div>
             
             <section className = {utilStyles.subscreen}>
-                <h1><b>About Us</b></h1>
+                <h1 className={utilStyles.h1}><b>About Us</b></h1>
                 <div className={utilStyles.container}>
                     <p>
-                        Ever wanted to learn coding but not sure how to begin? We're a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <Link href="/activities/datasciandmachinelearning"> Data Science </Link>to <Link href="/activities/webandmobileappdevt">Web Development </Link>. Members of our CCA has extremely diverse. Some have internship experiences, while other have none at all. We welcome students of all skill levels, from absolute beginners to programming experts.
+                        Ever wanted to learn coding but not sure how to begin? We're a CCA filled with passionate individuals who believe in the power of technology in transforming our way of life for the better. We offer courses from <a href="/activities/datasciandmachinelearning" className={utilStyles.a}>Data Science</a> to <a href="/activities/webandmobileappdevt" className={utilStyles.a}>Web Development</a>. Members of our CCA has extremely diverse. Some have internship experiences, while other have none at all. We welcome students of all skill levels, from absolute beginners to programming experts.
                     </p>
                     <p>
                         Sessions held every Wednesday from 9 to 11am

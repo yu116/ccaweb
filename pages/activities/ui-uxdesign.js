@@ -27,7 +27,7 @@ function ui() {
             </div>
 
             <section className={utilStyles.subscreen}>
-                <h1><b>UI-UX Design</b></h1>
+                <h1 className={utilStyles.h1}><b>UI-UX Design</b></h1>
                 <div className={utilStyles.container}>
                     <p>    
                         This course aims to provide course participants with professional feedback on their mockups, and to learn more about UI/UX as a career path.
@@ -36,7 +36,12 @@ function ui() {
                     <p>
                         Each team will submit a mockup and a brief product description.
                     </p>
+<<<<<<< HEAD
                     <p> Duration: 4 weeks</p>
+=======
+
+                    <br></br>
+>>>>>>> 379b0a946a9c0281db5ad462090c7f677721122a
                     
                     <p><b><u>Students' Works</u></b></p>
                     

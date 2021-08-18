@@ -28,14 +28,34 @@ export default function incubator() {
         </div>
 
             <section className={utilStyles.subscreen}>
-                <h1><b>Incubator programmes</b></h1>
+                <h1 className={utilStyles.h1}><b>Incubator Programmes</b></h1>
                 <div className={utilStyles.container}>
-                <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img>
-                </div>
-                <div className={utilStyles.container}>
+                    <p>Wanna do something else during CCA time? Like</p>
+                    <ul className={utilStyles.ul}>
+                        <li className={utilStyles.li}>
+                            <span class="material-icons">emoji_events</span>
+                            <p>Prepare for a computer-science related competition</p>
+                        </li>
+
+                        <li className={utilStyles.li}>
+                            <span class="material-icons">people</span>
+                            <p>Start your own project with like-minded individuals*</p>
+                        </li>
+
+                        <li className={utilStyles.li}>
+                            <span class="material-icons">computer</span>
+                            <p>Learn a different specialization (e.g. Arduino)</p>
+                        </li>
+                    </ul>
+                    
                     <p>
-                        
-                </p>
+                    Then the Incubator Programme is just for you! You get to work on your OWN project during CCA time and receive mentorship from our EXCO members. Approach one of them if you wish to take part.
+                    </p>
+                    <br></br>
+                    <p className={utilStyles.funFact}>
+                        *Fun fact: This website was developed under the Incubator Programme
+                    </p>
+
                 </div>
 
                 <br></br>

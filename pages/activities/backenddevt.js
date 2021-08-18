@@ -28,14 +28,20 @@ function backend() {
             <Link href="/competitions"><a>Competitions</a></Link>
         </div>
             <section className={utilStyles.subscreen}>
-                <h1><b>Backend Development</b></h1>
+                <h1 className={utilStyles.h1}><b>Backend Development</b></h1>
                 <div className={utilStyles.container}>
                 {/* <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img> */}
                 </div>
                 <div className={utilStyles.container}>
+<<<<<<< HEAD
                     <p>
                     Backend developers work behind the scenes. Without them, there would be nothing behind the scenes, in fact, the scene would simply be just that – a scene – with nothing else in front or behind it. The “scene” is brought across a flat plane lacking in dimensionality. The “scene” merely presents itself in breadth, spanning across a screen. Backend developers adds a dimension to any project – not only does the scene have breadth, but the presence of a “behind-the-scenes” gives depth – showcased in terms of creativity, innovation and good looks. Students explored NodeJS, Express, DBs and Auth through hands-on projects in this course.
                     </p>
+=======
+                    <p className={utilStyles.p}>
+                        
+                    Instead of command line applications, you’ll learn to program apps that anyone can access across the internet. This is the backbone of all online apps, mobile or web, and is what you’ll need to turn YOUR million dollar idea into reality. NodeJS, Express, DBs, Auth and Sockets are ALL on the cards.</p>
+>>>>>>> 379b0a946a9c0281db5ad462090c7f677721122a
                     <p> Duration: 4 weeks</p>
                 </div>
 

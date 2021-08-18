@@ -28,7 +28,7 @@ function datasci() {
         </div>
 
             <section className={utilStyles.subscreen}>
-            <h1><b>Data and Machine Learning</b></h1>
+            <h1 className={utilStyles.h1}><b>Data Science and Machine Learning</b></h1>
                 <div className={utilStyles.container}>
                 <img src="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg" className={utilStyles.center}></img>
                 </div>

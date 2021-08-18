@@ -17,7 +17,6 @@ export default function Home() {
             <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
             <Link href="/aboutus"><a>About Us</a></Link>
             
-            
             <div className={utilStyles.dropdown}>
                 <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
                 <div className={utilStyles.dropdownContent}>
@@ -33,7 +32,11 @@ export default function Home() {
         </div>
 
         <section className={utilStyles.cover}>
+<<<<<<< HEAD
           {/* <h1 className={utilStyles.subtitle}>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</h1> */}
+=======
+          <p className={utilStyles.subtitle}><i>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</i></p>
+>>>>>>> 379b0a946a9c0281db5ad462090c7f677721122a
         </section>
       </div>
 

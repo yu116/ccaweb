@@ -28,7 +28,7 @@ function competitive() {
         </div>
 
             <section className={utilStyles.subscreen}>
-                <h1><b>Competitive Programming</b></h1>
+                <h1 className={utilStyles.h1}><b>Competitive Programming</b></h1>
                 <div className={utilStyles.container}>
                 
                 </div>
