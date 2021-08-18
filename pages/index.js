@@ -13,7 +13,6 @@ export default function Home() {
         </Head>
 
         <div className={utilStyles.navBar}>
-            
             <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
             <Link href="/aboutus"><a>About Us</a></Link>
             
@@ -32,7 +31,7 @@ export default function Home() {
         </div>
 
         <section className={utilStyles.cover}>
-          <p className={utilStyles.subtitle}><i>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</i></p>
+          <p className={utilStyles.subtitle}><i>Technology makes us masters of a world that we command by the push of a button.</i></p>
         </section>
       </div>
 
@@ -66,28 +65,28 @@ export default function Home() {
       <section className={utilStyles.footer}>
           <div className={utilStyles.footercontent}>
               <div className={utilStyles.li}>
-                <span class="material-icons">place</span>
+                <span className="material-icons">place</span>
                 <Link href="http://www.ri.edu.sg/visit-us">
                   <a target="_blank" className={utilStyles.link}>Our Location</a>
                 </Link>
               </div>
 
               <div className={utilStyles.li}>
-                <span class="material-icons">mail</span>
+                <span className="material-icons">mail</span>
                 <Link href="mailto:cssrjc@gmail.com">
                   <a target="_blank" className={utilStyles.link}>cssrjc@gmail.com</a>
                 </Link>
               </div>
 
               <div className={utilStyles.li}>
-                <span class="material-icons">alternate_email</span>
+                <span className="material-icons">alternate_email</span>
                 <Link href="https://www.instagram.com/rafflescss/">
                   <a target="_blank" className={utilStyles.link}>rafflescss</a>
                 </Link>
               </div>
 
               <div className={utilStyles.li}>
-                <span class="material-icons">photo_camera</span>
+                <span className="material-icons">photo_camera</span>
                 <Link href="https://www.instagram.com/rafflescss/">
                   <a className={utilStyles.link}>Photos</a>
                 </Link>

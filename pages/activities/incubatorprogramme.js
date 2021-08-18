@@ -33,17 +33,17 @@ export default function incubator() {
                     <p>Wanna do something else during CCA time? Like</p>
                     <ul className={utilStyles.ul}>
                         <li className={utilStyles.li}>
-                            <span class="material-icons">emoji_events</span>
+                            <span className="material-icons">emoji_events</span>
                             <p>Prepare for a computer-science related competition</p>
                         </li>
 
                         <li className={utilStyles.li}>
-                            <span class="material-icons">people</span>
+                            <span className="material-icons">people</span>
                             <p>Start your own project with like-minded individuals*</p>
                         </li>
 
                         <li className={utilStyles.li}>
-                            <span class="material-icons">computer</span>
+                            <span className="material-icons">computer</span>
                             <p>Learn a different specialization (e.g. Arduino)</p>
                         </li>
                     </ul>
@@ -64,28 +64,28 @@ export default function incubator() {
             <section className={utilStyles.footer}>
                 <div className={utilStyles.footercontent}>
                     <div className={utilStyles.li}>
-                        <span class="material-icons">place</span>
+                        <span className="material-icons">place</span>
                         <Link href="http://www.ri.edu.sg/visit-us">
                         <a target="_blank" className={utilStyles.link}>Our Location</a>
                         </Link>
                     </div>
 
                     <div className={utilStyles.li}>
-                        <span class="material-icons">mail</span>
+                        <span className="material-icons">mail</span>
                         <Link href="mailto:cssrjc@gmail.com">
                         <a target="_blank" className={utilStyles.link}>cssrjc@gmail.com</a>
                         </Link>
                     </div>
 
                     <div className={utilStyles.li}>
-                        <span class="material-icons">alternate_email</span>
+                        <span className="material-icons">alternate_email</span>
                         <Link href="https://www.instagram.com/rafflescss/">
                         <a target="_blank" className={utilStyles.link}>rafflescss</a>
                         </Link>
                     </div>
 
                     <div className={utilStyles.li}>
-                        <span class="material-icons">photo_camera</span>
+                        <span className="material-icons">photo_camera</span>
                         <Link href="https://www.instagram.com/rafflescss/">
                         <a className={utilStyles.link}>Photos</a>
                         </Link>
