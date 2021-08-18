@@ -32,11 +32,7 @@ export default function Home() {
         </div>
 
         <section className={utilStyles.cover}>
-<<<<<<< HEAD
-          {/* <h1 className={utilStyles.subtitle}>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</h1> */}
-=======
           <p className={utilStyles.subtitle}><i>"The ultimate promise of technology is to make us masters of a world that we command by the push of a button"</i></p>
->>>>>>> 379b0a946a9c0281db5ad462090c7f677721122a
         </section>
       </div>
 
