@@ -45,8 +45,8 @@ export default function Home() {
             
             <div className={utilStyles.slides}>
                 <div name="slide-1" id="slide-1" className={utilStyles.slide}>
-                    <blockquote>"I love CSS!"</blockquote>
-                    <p>~ Member 1</p>
+                    <blockquote>CSS is an enriching CCA for all who are passionate about programming! The courses it offers are useful and interesting, and the incubator programme, in particular, promotes creativity and presents the chance for members to experiment and create innovative projects. By and large, anyone who wants to learn computer science should definitely try out for CSS!</blockquote>
+                    <p>~ Nyx</p>
                 </div>
                 
                 <div name="slide-2" id="slide-2" className={utilStyles.slide}>
