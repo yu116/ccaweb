@@ -31,11 +31,11 @@ function competitive() {
                 <h1 className={utilStyles.h1}><b>Competitive Programming</b></h1>
                
                 <div className={utilStyles.container}>
-                    <p>
+                <p className={utilStyles.p}>
                     Participants were taught the fundamentals of competitive programming which includes algorithms and run-time analysis to solve problems in a stipulated time.    
                    
                     </p>
-                    <p> Duration: 4 weeks</p>
+                    <p className={utilStyles.p}> Duration: 4 weeks</p>
                     <p>
                     <Image src="/cp.jpeg" alt="contest board" width = "500px" height = "250px"/>
                     </p>

@@ -28,11 +28,11 @@ function ui() {
             <section>
                 <h1 className={utilStyles.h1}><b>UI-UX Design</b></h1>
                 <div className={utilStyles.container}>
-                    <p>    
+                <p className={utilStyles.p}> 
                         This course aims to provide course participants with professional feedback on their mockups, and to learn more about UI/UX as a career path.
                     </p>
                     
-                    <p>
+                    <p className={utilStyles.p}>
                         Each team will submit a mockup and a brief product description.
                     </p>
 

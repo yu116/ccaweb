@@ -30,14 +30,24 @@ function datasci() {
             <section>
                 <h1 className={utilStyles.h1}><b>Data Science and Machine Learning</b></h1>
                 <div className={utilStyles.container}>
-                    <p></p>
+                   
                    
                     
-                    <p>
-                    Then the Data Science course is just for you! You get to work on your OWN project during CCA time and receive mentorship from our EXCO members. Approach one of them if you wish to take part.
+                    <p className={utilStyles.p}>
+                    We built a data science pipeline from scratch and explored the problematic datasets. We learnt exploratory data analysis and data visualisation techniques to spot trends in our dataset, which we collected ourselves.
                     </p>
                     <br></br>
-                    
+                    <table className={utilStyles.table}>
+                        <tr>
+                            <td>
+                            <Image src="/ds1.JPG" alt="work1" width = "250px" height = "300px"/>
+                            </td>
+                            <td>
+                            <Image src="/ds2.JPG" alt="work2" width = "250px" height = "300px"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>Caption</p>
 
                 </div>
 

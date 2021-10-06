@@ -30,7 +30,7 @@ export default function incubator() {
             <section>
                 <h1 className={utilStyles.h1}><b>Incubator Programmes</b></h1>
                 <div className={utilStyles.container}>
-                    <p>Wanna do something else during CCA time? Like</p>
+                <p className={utilStyles.p}> Wanna do something else during CCA time? Like</p>
                     <ul className={utilStyles.ul}>
                         <li className={utilStyles.li}>
                             <span className="material-icons">emoji_events</span>
@@ -48,7 +48,7 @@ export default function incubator() {
                         </li>
                     </ul>
                     
-                    <p>
+                    <p className={utilStyles.p}>
                     Then the Incubator Programme is just for you! You get to work on your OWN project during CCA time and receive mentorship from our EXCO members. Approach one of them if you wish to take part.
                     </p>
                     <br></br>
