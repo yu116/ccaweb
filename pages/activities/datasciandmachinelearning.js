@@ -47,7 +47,7 @@ function datasci() {
                             </td>
                         </tr>
                     </table>
-                    <p>Caption</p>
+                    <p>Students collecting data from various locations around Singapore</p>
 
                 </div>
 
