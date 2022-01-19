@@ -23,7 +23,7 @@ function Recruitment() {
                     </div>
                 </div>
 
-                <Link href="/recruitment"><a>Recruit</a></Link>
+                <Link href="/recruitment"><a>Recruitment</a></Link>
 
                 <Link href="/competitions"><a>Competitions</a></Link>
             </div>
