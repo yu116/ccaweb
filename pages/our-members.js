@@ -18,12 +18,12 @@ function OurMembers() {
                         <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
                         <Link href="/activities/backenddevt">Backend Development </Link>
                         <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
-                        <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
+                        <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning</Link>
                         <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
                     </div>
                 </div>
 
-                <Link href="/recruitment"><a>Recruit</a></Link>
+                <Link href="/recruitment"><a>Recruitment</a></Link>
 
                 <Link href="/competitions"><a>Competitions</a></Link>
             </div>
