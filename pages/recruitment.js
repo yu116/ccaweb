@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import utilSyles from '../styles/utils.module.css'
+import utilStyles from '../styles/utils.module.css'
 import Image from 'next/image'
 
 function Recruitment() {
-    return(
-        <div ClassName={utilStyles.screen}>
+    return (
+        <div className={utilStyles.screen}>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
             
             <div className={utilStyles.navBar}>
