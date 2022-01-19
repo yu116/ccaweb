@@ -3,27 +3,28 @@ import utilStyles from '../styles/utils.module.css'
 import Image from 'next/image'
 function Competitions() {
     return (
-        <div className={utilStyles.screen}>
+    <div className={utilStyles.screen}>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
         
         <div className={utilStyles.navBar}>
-            
-            <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
-            <Link href="/our-members"><a>Our Members</a></Link>
-            
-            
-            <div className={utilStyles.dropdown}>
-                <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
-                <div className={utilStyles.dropdownContent}>
-                <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
-                <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
-                <Link href="/activities/backenddevt">Backend Development </Link>
-                <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
-                <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning </Link>
-                <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
+                <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
+                <Link href="/our-members"><a>Our Members</a></Link>
+                
+                <div className={utilStyles.dropdown}>
+                    <a className={utilStyles.dropdownBtn}>2021-2022 Activities/Courses</a>
+                    <div className={utilStyles.dropdownContent}>
+                        <Link href="/activities/ui-uxdesign">UI/UX Design </Link>
+                        <Link href="/activities/webandmobileappdevt">Web and Mobile App Development </Link>
+                        <Link href="/activities/backenddevt">Backend Development </Link>
+                        <Link href="/activities/competitiveprogramming">Competitive Programming </Link>
+                        <Link href="/activities/datasciandmachinelearning">Data Science and Machine Learning</Link>
+                        <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
+                    </div>
                 </div>
-            </div>
-            <Link href="/competitions"><a>Competitions</a></Link>
+
+                <Link href="/recruitment"><a>Recruitment</a></Link>
+
+                <Link href="/competitions"><a>Competitions</a></Link>
         </div>
         
             <h1 className={utilStyles.h1}>Competitions</h1>
@@ -71,7 +72,7 @@ function Competitions() {
 
                 <p>&#169; 2021 Raffles Institution Computer Science Society</p>
             </section>
-        </div>
+    </div>
     )
 }
 
