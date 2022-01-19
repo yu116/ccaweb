@@ -22,6 +22,9 @@ function OurMembers() {
                         <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
                     </div>
                 </div>
+
+                <Link href="/recruitment"><a>Recruit</a></Link>
+
                 <Link href="/competitions"><a>Competitions</a></Link>
             </div>
             
