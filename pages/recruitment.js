@@ -25,6 +25,8 @@ function Recruitment() {
 
                 <Link href="/recruitment"><a>Recruitment</a></Link>
 
+                <Link href="/contact-us"><a>Contact Us</a></Link>
+
                 <Link href="/competitions"><a>Competitions</a></Link>
             </div>
 
@@ -33,6 +35,42 @@ function Recruitment() {
                 <p><b>Don’t have any past coding experience? Fret not! Our selection process is just a two-step survey to see if you are suitable for the CCA! You just have to show your will to be a part of our team! :D</b></p>
 
                 <br></br>
+            </section>
+
+            <section className={utilStyles.footer}>
+                <div className={utilStyles.footercontent}>
+                    <div className={utilStyles.li}>
+                        <span className="material-icons">place</span>
+                        <Link href="http://www.ri.edu.sg/visit-us">
+                        <a target="_blank" className={utilStyles.link}>Our Location</a>
+                        </Link>
+                    </div>
+
+                    <div className={utilStyles.li}>
+                        <span className="material-icons">mail</span>
+                        <Link href="mailto:cssrjc@gmail.com">
+                        <a target="_blank" className={utilStyles.link}>cssrjc@gmail.com</a>
+                        </Link>
+                    </div>
+
+                    <div className={utilStyles.li}>
+                        <span className="material-icons">alternate_email</span>
+                        <Link href="https://www.instagram.com/rafflescss/">
+                        <a target="_blank" className={utilStyles.link}>rafflescss</a>
+                        </Link>
+                    </div>
+
+                    <div className={utilStyles.li}>
+                        <span className="material-icons">photo_camera</span>
+                        <Link href="https://www.instagram.com/rafflescss/">
+                        <a className={utilStyles.link}>Photos</a>
+                        </Link>
+                    </div>
+                </div>
+
+                <hr></hr>
+
+                <p>&#169; 2021 Raffles Institution Computer Science Society</p>
             </section>
 
         </div>

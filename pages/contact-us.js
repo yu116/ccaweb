@@ -1,12 +1,14 @@
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 import Image from 'next/image'
-function Competitions() {
-    return (
-    <div className={utilStyles.screen}>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-        
-        <div className={utilStyles.navBar}>
+
+function ContactUs(){
+
+    return(
+        <div className={utilStyles.screen}>
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+            
+            <div className={utilStyles.navBar}>
                 <Link href="/"><a><Image src="/navlogo.jpg" alt="CSS Logo" width = "250px" height = "75px"/></a></Link>
                 <Link href="/our-members"><a>Our Members</a></Link>
                 
@@ -27,18 +29,18 @@ function Competitions() {
                 <Link href="/contact-us"><a>Contact Us</a></Link>
 
                 <Link href="/competitions"><a>Competitions</a></Link>
-        </div>
-        
-        <h1 className={utilStyles.h1}>Competitions</h1>
-            <Image src="/noi.png" alt="National Olympiad in Informatics (NOI)" width = "500px" height = "200px"/>
-            <br></br>
-            <Image src="/whitehacks.jpeg" alt="Whitehacks" width = "500px" height = "200px"/>
-            <br></br>
-            <Image src="/brainhack.png" alt="BrainHack" width = "500px" height = "200px"/>
-                
-            <br></br>
-            <br></br>
+            </div>
             
+            <section className = {utilStyles.screen}>
+                <h1 className={utilStyles.h1}><b>Contact Us</b></h1>
+                <p><b>Email: cssrjc@gmail.com</b></p>
+                <p><b>Instagram: @rafflescss</b></p>
+                <p><b>Teacher-in-charge: Mr Daniel Koh Liang Cheung</b></p>
+                <p><b>Contact email: daniel.koh@ri.edu.sg</b></p>
+
+                <br></br>
+            </section>
+
             <section className={utilStyles.footer}>
                 <div className={utilStyles.footercontent}>
                     <div className={utilStyles.li}>
@@ -75,7 +77,6 @@ function Competitions() {
                 <p>&#169; 2021 Raffles Institution Computer Science Society</p>
             </section>
         </div>
+
     )
 }
-
-export default Competitions;
