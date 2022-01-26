@@ -68,12 +68,12 @@ export default function Home() {
                 
                 <div name="slide-2" id="slide-2" className={utilStyles.slide}>
                   <blockquote>"CSS is a place where you explore new possibilities and expand your creativity."</blockquote>
-                  <p>~ Lee Baoyu ~</p>
+                  <p>~ Lee Bao Yu ~</p>
                 </div>
                 
-                <div id="slide-3" className={utilStyles.slide}>
+                <div name="slide-3" id="slide-3" className={utilStyles.slide}>
                   <blockquote>"CSS is love. CSS is life."</blockquote>
-                  <p>~ Huang Ziwen ~</p>
+                  <p>~ Huang Zi Wen ~</p>
                 </div>
             </div>
         </div>

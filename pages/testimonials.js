@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 
-export default function Testimonials() {
+function Testimonials() {
     return (
         <div className={utilStyles.testimonials}>
                 <h1>Testimonials</h1>
@@ -13,7 +13,7 @@ export default function Testimonials() {
                     <div className={utilStyles.slides}>
                         <div name="slide-1" id="slide-1" className={utilStyles.slide}>
                             <blockquote>CSS is a place where you explore new possibilities and expand your creativity.</blockquote>
-                            <p>~ Lee Baoyu</p>
+                            <p>~ Lee Bao Yu</p>
                         </div>
                         
                         <div name="slide-2" id="slide-2" className={utilStyles.slide}>
@@ -38,3 +38,5 @@ export default function Testimonials() {
         </div>
     )
 }
+
+export default Testimonials;
