@@ -23,8 +23,6 @@ function ui() {
                     </div>
                 </div>
 
-                <Link href="/recruitment"><a>Recruitment</a></Link>
-
                 <Link href="/competitions"><a>Competitions</a></Link>
 
                 <Link href="/testimonials"><a>Testimonials</a></Link>
