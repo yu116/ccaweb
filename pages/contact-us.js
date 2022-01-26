@@ -30,15 +30,25 @@ function ContactUs(){
 
                 <Link href="/contact-us"><a>Contact Us</a></Link>
             </div>
-            
-            <section className = {utilStyles.screen}>
+
+            <section class = "parent">
+                <section class = "child"
+                className = {utilStyles.screen}>
                 <h1 className={utilStyles.h1}><b>Contact Us</b></h1>
-                <p><b>Email: cssrjc@gmail.com</b></p>
-                <p><b>Instagram: @rafflescss</b></p>
-                <p><b>Teacher-in-charge: Mr Daniel Koh Liang Cheung</b></p>
-                <p><b>Contact email: daniel.koh@ri.edu.sg</b></p>
+                <p>Email: <a href="mailto:cssrjc@gmail.com">cssrjc@gmail.com</a></p> 
+                <p>Instagram: @rafflescss</p>
+                <p>Teacher-in-charge: Mr Daniel Koh Liang Cheung</p>
+                <p>Contact Email: <a href="mailto:daniel.koh@ri.edu.sg">daniel.koh@ri.edu.sg</a></p>
 
                 <br></br>
+
+            </section>
+
+                <section class = "child">
+            <iframe src=
+                "https://docs.google.com/forms/d/e/1FAIpQLSeOFrFdFuWYz6_JUNf5mnxVxtIq0pBzhiUiVbUzesDwODknFA/viewform?embedded=true" 
+                width="400" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </section>
             </section>
 
             <section className={utilStyles.footer}>
