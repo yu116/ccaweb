@@ -22,6 +22,11 @@ function ui() {
                 <Link href="/activities/incubatorprogramme">Incubator Programmes </Link>
                     </div>
                 </div>
+
+                <Link href="/recruitment"><a>Recruitment</a></Link>
+
+                <Link href="/contact-us"><a>Contact Us</a></Link>
+
                 <Link href="/competitions"><a>Competitions</a></Link>
             </div>
 
