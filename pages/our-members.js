@@ -25,9 +25,9 @@ function OurMembers() {
 
                 <Link href="/recruitment"><a>Recruitment</a></Link>
 
-                <Link href="/contact-us"><a>Contact Us</a></Link>
-
                 <Link href="/competitions"><a>Competitions</a></Link>
+
+                <Link href="/contact-us"><a>Contact Us</a></Link>
             </div>
             
             <section className = {utilStyles.screen}>
