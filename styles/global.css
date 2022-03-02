@@ -28,6 +28,11 @@ img {
   display: block;
 }
 
+.child {
+  float: left;
+  width: 50%
+}
+
 .parent {
   display: flex;
 }
