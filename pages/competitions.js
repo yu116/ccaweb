@@ -31,6 +31,10 @@ function Competitions() {
         
         <h1 className={utilStyles.h1}>Competitions</h1>
             <Image src="/noi.png" alt="National Olympiad in Informatics (NOI)" width = "500px" height = "200px"/>
+            <p className={utilStyles.p}><b><u>NOI</u></b></p>
+            <div className={utilStyles.container}>
+                <p>The Singapore National Olympiad in Informatics (NOI) is modelled after the International Olympiad in Informatics (IOI), the ultimate international competition in computing (Informatics is the European term for computer science). NOI emphasises creativity in problem solving on the one hand, and programming skill and expertise on the other. The competition aims to spur interest in the school community of programming, and equip students with knowledge beyond that of a mere IT application user, in line with the national goal of creating an IT-savvy nation. NOI is hosted annually by the School of Computing of NUS.</p>
+            </div>
             <br></br>
             <Image src="/whitehacks.jpeg" alt="Whitehacks" width = "500px" height = "200px"/>
             <br></br>
