@@ -43,6 +43,10 @@ function Testimonials() {
                     </Link>
                 </div>
 
+                <section className={utilStyles.break}>
+                    
+                </section>
+
                 <section className={utilStyles.footer}>
                 <div className={utilStyles.footercontent}>
                     <div className={utilStyles.li}>
@@ -77,7 +81,7 @@ function Testimonials() {
                 <hr></hr>
 
                 <p>&#169; 2021 Raffles Institution Computer Science Society</p>
-            </section>
+                </section>
         </div>
     )
 }

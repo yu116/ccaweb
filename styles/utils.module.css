@@ -140,6 +140,10 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+.break{
+  background-color: green;
+}
+
 .btn {
   width: fit-content;
   height: fit-content;
