@@ -141,6 +141,9 @@
 }
 
 .break{
+  width: fit-content;
+  height: fit-content;
+  color: green;
   background-color: green;
 }
 
