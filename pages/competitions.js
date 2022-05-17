@@ -33,9 +33,16 @@ function Competitions() {
             <Image src="/noi.png" alt="National Olympiad in Informatics (NOI)" width = "500px" height = "200px"/>
             <br></br>
             <Image src="/whitehacks.jpeg" alt="Whitehacks" width = "500px" height = "200px"/>
+            <p className={utilStyles.p}><b><u>SMU Whitehacks</u></b></p>
+            <div className={utilStyles.container}>
+                <p>WhiteHacks by SMU Whitehat Society is an introductory competition benchmarking cybersecurity potential. It is delivered in a series of challenges which the participating teams have to solve to claim points. The team with the highest score at the end will be the grand winner for the competition.</p>
+            </div>      
             <br></br>
             <Image src="/brainhack.png" alt="BrainHack" width = "500px" height = "200px"/>
-                
+            <p className={utilStyles.p}><b><u>Brainhack</u></b></p>
+            <div className={utilStyles.container}>
+                <p>Organised by the Defence Science and Technology Agency (DSTA), BrainHack is a unique, hands-on experience into the swiftly evolving world of digital tech. Students get to experience the realms of cybersecurity, Artificial Intelligence (AI), space technologies, app development, fake news detection, extended reality and more!</p>
+            </div>    
             <br></br>
             <br></br>
             
