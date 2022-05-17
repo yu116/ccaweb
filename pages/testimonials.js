@@ -5,6 +5,7 @@ import Image from 'next/image'
 function Testimonials() {
     return (
         <div className={utilStyles.testimonials}>
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
                 <h2 className={utilStyles.h2}>Testimonials</h2>
 
                 <div className={utilStyles.slider}>
